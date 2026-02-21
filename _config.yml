@@ -1,0 +1,31 @@
+title: "Nasim Hossain"
+description: ".NET Backend Engineer | Docker | SQL Server"
+url: "https://nasimhossain.dev"
+baseurl: ""
+
+remote_theme: "mmistakes/minimal-mistakes"
+
+plugins:
+  - jekyll-include-cache
+
+author:
+  name: "Nasim Hossain"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://nasimhossain.dev"
+    - label: "Blog"
+      icon: "fas fa-fw fa-rss"
+      url: "https://blog.nasimhossain.dev"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/imnasim31415"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/imnasim31415/"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
