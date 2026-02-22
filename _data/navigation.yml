@@ -1,15 +1,13 @@
 main:
   - title: "About"
-    url: /
-  - title: "Activity"
-    url: /activity/
+    url: /#about
   - title: "Experience"
-    url: /experience/
+    url: /#experience
   - title: "Certifications"
-    url: /certifications/
-  - title: "Resume"
-    url: /resume/
+    url: /#certifications
   - title: "Blog"
     url: https://blog.nasimhossain.dev
+  - title: "Timeline"
+    url: /#timeline
   - title: "Contact"
-    url: /contact/
+    url: /#contact
