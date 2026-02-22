@@ -1,8 +1,4 @@
----
-title: "Certifications"
-permalink: /certifications/
-layout: single
----
-
-- RHCSA — Red Hat Certified System Administrator
-- ...
+- name: "Certification Name"
+  issuer: "Issuer"
+  year: 2025
+  url: "https://..."
