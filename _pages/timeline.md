@@ -1,10 +1,6 @@
----
-title: "Activity"
-permalink: /activity/
-layout: single
----
-
-## Timeline
-- **2026** — ...
-- **2025** — ...
-- **2024** — ...
+- date: "2026-02"
+  title: "Launched nasimhossain.dev"
+  note: "Moved portfolio + resume to a single personal domain."
+- date: "2024-06"
+  title: "Joined DSi"
+  note: "Started as Junior Software Engineer."
