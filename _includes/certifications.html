@@ -1,0 +1,8 @@
+<ul>
+{% for c in site.data.certifications %}
+  <li>
+    {% if c.url %}<a href="{{ c.url }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}
+    — {{ c.issuer }} ({{ c.year }})
+  </li>
+{% endfor %}
+</ul>
