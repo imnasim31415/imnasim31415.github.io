@@ -1,0 +1,9 @@
+{% for item in site.data.experience %}
+### {{ item.role }} — {{ item.company }}
+**{{ item.period }}**
+<ul>
+  {% for b in item.bullets %}
+    <li>{{ b }}</li>
+  {% endfor %}
+</ul>
+{% endfor %}
