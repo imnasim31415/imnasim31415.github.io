@@ -1,21 +1,49 @@
 ---
-layout: splash
+layout: single
 title: "Nasim Hossain"
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.6"
-  actions:
-    - label: "View Resume"
-      url: "/resume/"
-    - label: "Read Blog"
-      url: "https://blog.nasimhossain.dev"
-excerpt: "Backend-focused software engineer specializing in .NET, SQL Server, and Docker."
+permalink: /
+classes: wide
 ---
 
-## About Me
-Write a short, punchy intro here.
+<section id="about"></section>
 
-## Featured Work
-- Project A — one-liner
-- Project B — one-liner
-- Project C — one-liner
+## About Me
+I build backend systems that are fast, reliable, and easy to maintain — mainly in .NET with SQL Server and Docker.
+
+---
+
+<section id="experience"></section>
+
+## Experience
+{% include experience.html %}
+
+---
+
+<section id="certifications"></section>
+
+## Certifications
+{% include certifications.html %}
+
+---
+
+<section id="blog"></section>
+
+## Blog
+I write at **blog.nasimhossain.dev** (Hashnode).  
+- 👉 [Read the blog](https://blog.nasimhossain.dev)
+
+---
+
+<section id="timeline"></section>
+
+## Timeline
+{% include timeline.html %}
+
+---
+
+<section id="contact"></section>
+
+## Contact
+Email: `you@domain.com`  
+LinkedIn: https://www.linkedin.com/in/imnasim31415/  
+GitHub: https://github.com/imnasim31415
