@@ -1,10 +1,6 @@
----
-title: "Experience"
-permalink: /experience/
-layout: single
----
-
-## Junior Software Engineer — DSi
-**2024–Present**  
-- Built ...
-- Improved ...
+- role: "Junior Software Engineer"
+  company: "DSi"
+  period: "2024–Present"
+  bullets:
+    - "Built ..."
+    - "Improved ..."
