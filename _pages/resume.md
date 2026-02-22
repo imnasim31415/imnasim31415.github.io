@@ -2,10 +2,19 @@
 title: "Resume"
 permalink: /resume/
 layout: single
+author_profile: true
+classes: wide
 ---
 
-<div style="height: 90vh;">
-  <embed src="{{ '/assets/resume.pdf' | relative_url }}" type="application/pdf" width="100%" height="100%" />
-</div>
+## Resume
 
-[Download PDF]({{ '/assets/resume.pdf' | relative_url }})
+- **Download:** /assets/resume/resume.pdf
+
+---
+
+<iframe
+  src="/assets/resume/resume.pdf"
+  width="100%"
+  height="900px"
+  style="border: 1px solid rgba(0,0,0,.12); border-radius: 12px;"
+></iframe>

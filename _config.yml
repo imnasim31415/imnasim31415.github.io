@@ -1,15 +1,7 @@
-title: "Nasim Hossain"
-description: ".NET Backend Engineer | Docker | SQL Server"
-url: "https://nasimhossain.dev"
-baseurl: ""
-
-remote_theme: "mmistakes/minimal-mistakes"
-
-plugins:
-  - jekyll-include-cache
-
 author:
   name: "Nasim Hossain"
+  avatar: "/assets/images/nasim.jpg"
+  bio: "RHCSA | ASP.NET | Jr. SWE @DSi | 2xICPC Dhaka Regionalist | Competitive Programmer | Programming Instructor"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -23,9 +15,14 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/imnasim31415/"
-
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:ping@nasimhossain.dev"
 defaults:
   - scope:
       path: ""
+      type: pages
     values:
       layout: single
+      author_profile: true
+      classes: wide
