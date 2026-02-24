@@ -1,0 +1,136 @@
+---
+# Only the main Sass file needs front matter
+---
+
+@import "minima";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.7;
+}
+
+.page-content {
+  padding-top: 2.5rem;
+  padding-bottom: 3rem;
+}
+
+.page-content section[id] {
+  padding: 2.25rem 0;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.06);
+}
+
+.page-content section[id]:last-of-type {
+  border-bottom: none;
+}
+
+.page-content h2 {
+  font-size: 1.9rem;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  position: relative;
+}
+
+.page-content h2::after {
+  content: "";
+  display: block;
+  width: 56px;
+  height: 3px;
+  border-radius: 999px;
+  margin-top: 0.5rem;
+  background: linear-gradient(90deg, #2563eb, #22c55e);
+}
+
+.page-content h3 {
+  font-size: 1.3rem;
+  margin-top: 1.75rem;
+  margin-bottom: 0.4rem;
+}
+
+.page-content p {
+  margin-top: 0.25rem;
+  margin-bottom: 0.9rem;
+}
+
+.page-content ul {
+  margin-top: 0.4rem;
+  margin-bottom: 1.25rem;
+  padding-left: 1.2rem;
+}
+
+.page-content li {
+  margin-bottom: 0.3rem;
+}
+
+.page-content a {
+  color: #2563eb;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(37, 99, 235, 0.4);
+  transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.page-content a:hover {
+  color: #1d4ed8;
+  border-color: rgba(37, 99, 235, 0.8);
+  background-color: rgba(37, 99, 235, 0.04);
+}
+
+.site-header {
+  border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: 0 4px 8px rgba(15, 23, 42, 0.02);
+}
+
+.site-title {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.site-footer {
+  border-top: 1px solid rgba(15, 23, 42, 0.08);
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  color: #64748b;
+}
+
+section#timeline + h2,
+section#experience + h2,
+section#certifications + h2,
+section#blog + h2,
+section#about + h2,
+section#contact + h2 {
+  scroll-margin-top: 5rem;
+}
+
+section#timeline + h2 + ul,
+section#timeline + h2 + p + ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+section#timeline + h2 + ul li,
+section#timeline + h2 + p + ul li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.6rem;
+}
+
+section#timeline + h2 + ul li::before,
+section#timeline + h2 + p + ul li::before {
+  content: "";
+  position: absolute;
+  left: 0.4rem;
+  top: 0.45rem;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 999px;
+  background: #2563eb;
+}
+
+.page-content iframe {
+  border-radius: 12px;
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.18);
+}
+
