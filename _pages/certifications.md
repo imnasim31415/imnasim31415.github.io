@@ -1,9 +1,7 @@
 ---
 title: "Certifications"
 permalink: /certifications/
-layout: single
-author_profile: true
-classes: wide
+layout: default
 ---
 
 ## Certifications

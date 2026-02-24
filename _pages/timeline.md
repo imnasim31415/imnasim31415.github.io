@@ -1,9 +1,7 @@
 ---
 title: "Timeline"
 permalink: /timeline/
-layout: single
-author_profile: true
-classes: wide
+layout: default
 ---
 
 ## Timeline
