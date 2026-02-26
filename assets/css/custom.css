@@ -1,1 +1,9 @@
 html { scroll-behavior: smooth; }
+/* Slightly larger avatar + nicer spacing like the screenshot */
+.author__avatar img { max-width: 130px; }
+.author__content { margin-top: 0.5rem; }
+.author__name { font-size: 1.4rem; }
+.author__bio { font-size: 0.95rem; line-height: 1.4; }
+
+/* Keep sidebar visually “fixed” feeling */
+.sidebar.sticky { top: 1.5rem; }
