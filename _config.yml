@@ -9,7 +9,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-logo: "/assets/images/logo.jpg"
+logo: "/assets/images/logo.png"
 
 defaults:
   - scope:
