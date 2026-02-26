@@ -1,7 +1,10 @@
 ---
 title: "Experience"
 permalink: /experience/
-layout: default
+layout: single
+author_profile: true
+sidebar:
+  nav: "main"
 ---
 
 ## Experience

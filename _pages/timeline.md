@@ -1,7 +1,10 @@
 ---
 title: "Timeline"
 permalink: /timeline/
-layout: default
+layout: single
+author_profile: true
+sidebar:
+  nav: "main"
 ---
 
 ## Timeline

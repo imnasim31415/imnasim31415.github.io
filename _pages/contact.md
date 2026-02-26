@@ -3,7 +3,8 @@ title: "Contact"
 permalink: /contact/
 layout: single
 author_profile: true
-classes: wide
+sidebar:
+  nav: "main"
 ---
 
 ## Contact

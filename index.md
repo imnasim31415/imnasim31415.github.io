@@ -1,7 +1,10 @@
 ---
-layout: default
+layout: home
 title: "Nasim Hossain"
 permalink: /
+author_profile: true
+sidebar:
+  nav: "main"
 ---
 
 <section id="about"></section>
