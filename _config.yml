@@ -9,6 +9,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+logo: "/assets/images/nasim.jpg"
+
 defaults:
   - scope:
       path: ""
