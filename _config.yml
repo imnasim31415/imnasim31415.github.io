@@ -15,15 +15,30 @@ logo: "/assets/images/logo.png"
 author:
   name: "Nasim Hossain"
   avatar: "/assets/images/nasim.jpg"
-  bio: >
-    RHCSA  
-    ASP.NET Backend Developer  
-    Junior Software Engineer @ DSi  
-    2× ICPC Dhaka Regionalist  
-    Competitive Programmer  
-    Programming Instructor
+  bio: |
+    • RHCSA |
+    • ASP.NET Backend Developer |
+    • Junior Software Engineer @ DSi | 
+    • 2× ICPC Dhaka Regionalist |
+    • Competitive Programmer |
+    • Programming Instructor
   location: "Dhaka, Bangladesh"
-
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://nasimhossain.dev"
+    - label: "Blog"
+      icon: "fas fa-fw fa-rss"
+      url: "https://blog.nasimhossain.dev"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/imnasim31415"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/imnasim31415/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:ping@nasimhossain.dev"
 
 defaults:
   - scope:
