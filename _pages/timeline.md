@@ -3,8 +3,6 @@ title: "Timeline"
 permalink: /timeline/
 layout: single
 author_profile: true
-sidebar:
-  nav: "main"
 ---
 
 ## Timeline
