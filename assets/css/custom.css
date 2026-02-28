@@ -7,3 +7,48 @@ html { scroll-behavior: smooth; }
 
 /* Keep sidebar visually “fixed” feeling */
 .sidebar.sticky { top: 1.5rem; }
+
+/* Orange Theme Overrides */
+:root {
+  --primary-color: #f39c12;
+}
+
+::selection {
+  background: #f39c12;
+  color: #fff;
+}
+
+.author__urls.social-icons .fas, 
+.author__urls.social-icons .fab, 
+.author__urls.social-icons .far {
+  color: #f39c12;
+}
+
+.author__urls.social-icons a:hover {
+  color: #e67e22;
+}
+
+.btn--primary {
+  background-color: #f39c12 !important;
+}
+
+.btn--primary:hover {
+  background-color: #e67e22 !important;
+}
+
+/* Update the Masthead (Top Navigation) */
+.masthead {
+  border-bottom: 1px solid #f39c12;
+}
+
+.masthead__menu-item a {
+  color: #f39c12 !important;
+}
+
+.masthead__menu-item a:hover {
+  color: #e67e22 !important;
+}
+
+.masthead__menu-item--active a {
+  border-bottom: 2px solid #f39c12;
+}

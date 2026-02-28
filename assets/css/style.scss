@@ -45,7 +45,7 @@ main h2::after,
   height: 3px;
   border-radius: 999px;
   margin-top: 0.5rem;
-  background: linear-gradient(90deg, #2563eb, #22c55e);
+  background: linear-gradient(90deg, #f39c12, #e67e22);
 }
 
 main h3,
@@ -53,6 +53,7 @@ main h3,
   font-size: 1.3rem;
   margin-top: 1.75rem;
   margin-bottom: 0.4rem;
+  color: #f39c12;
 }
 
 main p,
@@ -75,17 +76,17 @@ main li,
 
 main a,
 .markdown-body a {
-  color: #2563eb;
+  color: #f39c12;
   text-decoration: none;
-  border-bottom: 1px solid rgba(37, 99, 235, 0.4);
+  border-bottom: 1px solid rgba(243, 156, 18, 0.4);
   transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
 }
 
 main a:hover,
 .markdown-body a:hover {
-  color: #1d4ed8;
-  border-color: rgba(37, 99, 235, 0.8);
-  background-color: rgba(37, 99, 235, 0.04);
+  color: #e67e22;
+  border-color: rgba(243, 156, 18, 0.8);
+  background-color: rgba(243, 156, 18, 0.04);
 }
 
 section#timeline + h2,
@@ -119,7 +120,7 @@ section#timeline + h2 + p + ul li::before {
   width: 0.4rem;
   height: 0.4rem;
   border-radius: 999px;
-  background: #2563eb;
+  background: #f39c12;
 }
 
 main iframe,
