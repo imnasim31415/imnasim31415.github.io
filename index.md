@@ -37,30 +37,76 @@ I am a **Red Hat Certified System Administrator (RHCSA)** and a dedicated **Comp
 
 ## 🛠️ Technical Skillset
 
-- **Languages:** C/C++, Python, Java, JavaScript, C# (ASP.NET), SQL.
-- **Frameworks:** ASP.NET Core, Django, Odoo.
-- **Cloud & DevOps:** Red Hat Enterprise Linux (RHCSA), AWS (EC2, S3, IAM), Docker, GitHub Actions, CI/CD.
-- **Databases:** MySQL, RethinkDB.
-- **Tools & Concepts:** Git, PM2, OOP, Data Structures, Algorithms, Machine Learning, LaTeX.
+- **💻 Languages:** 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="20" height="20"/> C/C++, 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"/> Python, 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="20" height="20"/> Java, 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="20" height="20"/> JavaScript, 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="20" height="20"/> C#, 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="20" height="20"/> SQL.
+- **🌐 Frameworks:** 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-plain.svg" width="20" height="20"/> ASP.NET Core, 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="20" height="20"/> Django, 
+  <img src="https://www.vectorlogo.zone/logos/odoo/odoo-icon.svg" width="20" height="20"/> Odoo.
+- **☁️ Cloud & DevOps:** 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redhat/redhat-original.svg" width="20" height="20"/> RHEL (RHCSA), 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" width="20" height="20"/> AWS, 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="20" height="20"/> Docker, 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="20" height="20"/> GitHub Actions, 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="20" height="20"/> Azure.
+- **🗄️ Databases:** 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="20" height="20"/> MySQL, 
+  <img src="https://www.vectorlogo.zone/logos/rethinkdb/rethinkdb-icon.svg" width="20" height="20"/> RethinkDB.
+- **🔧 Tools & Concepts:** 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="20" height="20"/> Git, 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" width="20" height="20"/> LaTeX, 
+  PM2, OOP, DS & Algorithms.
+
+---
+
+<section id="education"></section>
+
+## 🏛️ Education
+
+### **B.Sc. in Computer Science and Engineering**
+**Jahangirnagar University** | *2019 – 2024*
+- **CGPA:** 3.46 / 4.00
+- **Location:** Savar, Dhaka
 
 ---
 
 <section id="certifications"></section>
 
-## 🎓 Education & Certifications
+## 🎓 Certifications
 
-### **Education**
-- **B.Sc. in Computer Science and Engineering**
-  *Jahangirnagar University | 2019 – 2024*
-  - CGPA: **3.46 / 4.00**
+### **Red Hat Certified System Administrator (RHCSA)**
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redhat/redhat-original.svg" width="25" height="25"/> **Red Hat** | *Issued: Dec 2025 · Expires: Dec 2028*
+- **Credential ID:** 250-195-955
+- **Skills:** Linux, Red Hat Enterprise Linux (RHEL)
+- [Show Credential](https://www.credly.com/badges/bc987621-22d8-4484-9f16-7cdde481f4ae)
 
-### **Certifications**
-- **Red Hat Certified System Administrator (RHCSA)**
-  - *Issued: Dec 2025 | Expires: Dec 2028 | ID: 250-195-955*
-- **Introduction to Database with SQL (CS50)**
-  - *Harvard University | Issued: Dec 2024*
-- **LFS101: Introduction to Linux**
-  - *The Linux Foundation | Mar 2024*
+### **Introduction to Database with SQL**
+<img src="https://www.vectorlogo.zone/logos/harvard/harvard-icon.svg" width="25" height="25"/> **CS50 (Harvard University)** | *Issued: Jan 2025*
+- **Skills:** MySQL, Database Design, SQL Optimization
+- [Show Credential](https://certificates.cs50.io/279c4c4b-8e14-4745-9b9e-29f4c5bcc6a0.pdf?size=letter)
+
+### **LFS101: Introduction to Linux**
+<img src="https://www.vectorlogo.zone/logos/linux/linux-icon.svg" width="25" height="25"/> **The Linux Foundation** | *Issued: Mar 2024*
+
+### **Git and GitHub Essentials**
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ibm/ibm-plain.svg" width="25" height="25"/> **IBM** | *Issued: Jan 2023*
+
+### **Getting Started with Git and GitHub**
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/coursera/coursera-original.svg" width="25" height="25"/> **Coursera** | *Issued: Jan 2023*
+- **Credential ID:** 4J9TR6PND5VQ
+
+### **Linux Fundamentals**
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/coursera/coursera-original.svg" width="25" height="25"/> **Coursera** | *Issued: Jan 2023*
+- **Credential ID:** AHK6QTQWCVFN
+
+### **Problem Solving (Basic)**
+<img src="https://www.vectorlogo.zone/logos/hackerrank/hackerrank-icon.svg" width="25" height="25"/> **HackerRank**
+- **Credential ID:** B446C6DC9D11
 
 ---
 

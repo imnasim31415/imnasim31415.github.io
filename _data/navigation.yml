@@ -3,6 +3,8 @@ main:
     url: "/#about"
   - title: "Experience"
     url: "/#experience"
+  - title: "Education"
+    url: "/#education"
   - title: "Skills"
     url: "/#skills"
   - title: "Certifications"
