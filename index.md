@@ -151,23 +151,3 @@ My latest resume provides a detailed overview of my technical expertise and prof
   height="900px"
   style="border: 1px solid rgba(0,0,0,.12); border-radius: 12px;"
 ></iframe>
-
----
-
-<section id="blog"></section>
-
-## ✍️ Latest Blog Posts
-I share my technical insights and learning journey on my blog.
-
-👉 [blog.nasimhossain.dev](https://blog.nasimhossain.dev)
-
----
-
-<section id="contact"></section>
-
-## 📬 Get In Touch
-I'm always open to discussing new opportunities, collaboration, or just talking about tech.
-
-- **Email:** [ping@nasimhossain.dev](mailto:ping@nasimhossain.dev)
-- **LinkedIn:** [imnasim31415](https://www.linkedin.com/in/imnasim31415/)
-- **GitHub:** [@imnasim31415](https://github.com/imnasim31415)
