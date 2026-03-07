@@ -1,25 +1,13 @@
 title: "Nasim Hossain"
 repository: imnasim31415/imnasim31415.github.io
 
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dark" # try: "air", "mint", "dark", "sunrise"
-
 plugins:
-  - jekyll-include-cache
   - jekyll-seo-tag
   - jekyll-sitemap
-
-# Top navbar logo (put the file in /assets/images/)
-logo: "/assets/images/logo.png"
 
 author:
   name: "Nasim Hossain"
   avatar: "/assets/images/nasim.jpg"
-  bio: |
-    Jr. SWE @ **DSi** · **RHCSA** Certified
-    2× **ICPC** Dhaka Regionalist
-    Backend · DevOps · Linux · Cloud
-    `ASP.NET Core` · `Docker` · `GitHub Actions`
   location: "Dhaka, Bangladesh"
   links:
     - label: "Website"
@@ -41,10 +29,5 @@ author:
 defaults:
   - scope:
       path: ""
-      type: pages
     values:
-      layout: single
-      author_profile: true
-      sidebar:
-        sticky: true
-      classes: wide
+      layout: default

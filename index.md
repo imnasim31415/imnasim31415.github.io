@@ -1,8 +1,7 @@
 ---
-layout: single
+layout: default
 title: "Nasim Hossain"
 permalink: /
-author_profile: true
 ---
 
 <div class="terminal">

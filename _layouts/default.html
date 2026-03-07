@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title and page.title != site.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+
+  <!-- Apply saved theme before first paint — no flash -->
+  <script>(function(){var t=localStorage.getItem('dv-theme')||'dark';document.documentElement.setAttribute('data-theme',t);})();</script>
+
+  <link rel="icon" href="/assets/images/tab.png">
+  <link rel="apple-touch-icon" href="/assets/images/tab.png">
+
+  <!-- JetBrains Mono for code/terminal elements -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  {% seo %}
+</head>
+<body>
+
+<!-- ── Navbar ──────────────────────────────────────────────── -->
+<header class="nav">
+  <div class="nav__wrap">
+    <a class="nav__brand" href="/">
+      <span>{{ site.author.name | default: site.title }}</span><span class="blink">_</span>
+    </a>
+
+    <nav class="nav__links" id="nav-links">
+      {% for item in site.data.navigation.main %}
+      <a href="{{ item.url }}"{% if item.url contains 'http' %} target="_blank" rel="noopener"{% endif %}>{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+
+    <div class="nav__actions">
+      <button id="theme-toggle" aria-label="Toggle light/dark mode">☀</button>
+      <button id="hamburger" class="hamburger" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<!-- ── Main layout ─────────────────────────────────────────── -->
+<div class="layout">
+
+  <!-- Profile sidebar -->
+  <aside class="profile">
+    <div class="profile__card">
+      <img class="profile__avatar" src="{{ site.author.avatar }}" alt="{{ site.author.name }}">
+      <h1 class="profile__name">{{ site.author.name }}</h1>
+      <p class="profile__title">Jr. SWE @ <strong>DSi</strong></p>
+      <p class="profile__tags">RHCSA · 2× ICPC · DevOps</p>
+      {% if site.author.location %}
+      <p class="profile__loc"><i class="fas fa-map-marker-alt"></i> {{ site.author.location }}</p>
+      {% endif %}
+      <div class="profile__links">
+        {% for link in site.author.links %}
+        <a href="{{ link.url }}"{% if link.url contains 'http' %} target="_blank" rel="noopener"{% endif %} title="{{ link.label }}" class="profile__link">
+          <i class="{{ link.icon }}"></i>
+        </a>
+        {% endfor %}
+      </div>
+      <div class="profile__stack">
+        <span class="stk">ASP.NET Core</span>
+        <span class="stk">Docker</span>
+        <span class="stk">GitHub Actions</span>
+        <span class="stk">Linux</span>
+        <span class="stk">Azure</span>
+        <span class="stk">AWS</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Page content -->
+  <main class="content">
+    {{ content }}
+  </main>
+
+</div>
+
+<!-- ── Footer ─────────────────────────────────────────────── -->
+<footer class="footer">
+  <div class="footer__wrap">
+    <span>© {{ 'now' | date: "%Y" }} {{ site.author.name }}</span>
+    <span class="sep">·</span>
+    <a href="https://blog.nasimhossain.dev" target="_blank" rel="noopener">Blog</a>
+    <span class="sep">·</span>
+    <a href="https://github.com/imnasim31415" target="_blank" rel="noopener">GitHub</a>
+    <span class="sep">·</span>
+    <a href="https://www.linkedin.com/in/imnasim31415/" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+</footer>
+
+<!-- ── Scripts ─────────────────────────────────────────────── -->
+<script>
+(function () {
+  // Theme toggle
+  var btn = document.getElementById('theme-toggle');
+  function icon(t) { return t === 'light' ? '☾' : '☀'; }
+  btn.textContent = icon(document.documentElement.getAttribute('data-theme'));
+  btn.addEventListener('click', function () {
+    var cur = document.documentElement.getAttribute('data-theme');
+    var next = cur === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('dv-theme', next);
+    btn.textContent = icon(next);
+  });
+
+  // Mobile hamburger
+  var ham = document.getElementById('hamburger');
+  var navLinks = document.getElementById('nav-links');
+  ham.addEventListener('click', function () {
+    navLinks.classList.toggle('open');
+  });
+
+  // Close mobile nav on link click
+  navLinks.querySelectorAll('a').forEach(function (a) {
+    a.addEventListener('click', function () { navLinks.classList.remove('open'); });
+  });
+})();
+</script>
+
+</body>
+</html>
