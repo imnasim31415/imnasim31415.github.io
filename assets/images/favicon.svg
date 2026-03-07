@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Dark background with rounded corners -->
+  <rect width="32" height="32" rx="7" fill="#0d1117"/>
+  <!-- Subtle green border -->
+  <rect x="1.5" y="1.5" width="29" height="29" rx="5.5" fill="none" stroke="#22c55e" stroke-width="1" opacity="0.5"/>
+  <!-- Brackets in dim green -->
+  <text x="3.5" y="23"
+    font-family="'Courier New', Courier, monospace"
+    font-size="17"
+    font-weight="700"
+    fill="#22c55e"
+    opacity="0.5">{</text>
+  <!-- N in bright green -->
+  <text x="10" y="23"
+    font-family="'Courier New', Courier, monospace"
+    font-size="17"
+    font-weight="700"
+    fill="#22c55e">N</text>
+  <!-- Closing bracket -->
+  <text x="23" y="23"
+    font-family="'Courier New', Courier, monospace"
+    font-size="17"
+    font-weight="700"
+    fill="#22c55e"
+    opacity="0.5">}</text>
+</svg>

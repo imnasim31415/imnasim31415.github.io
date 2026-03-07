@@ -8,14 +8,23 @@ permalink: /
 <span class="tp">$ </span><span class="to">whoami</span><br>
 <span class="tg">nasim-hossain</span>&nbsp;&nbsp;<span class="tc"># Jr. SWE @ DSi · RHCSA · 2× ICPC Dhaka Regionalist</span><br>
 <br>
-<span class="tp">$ </span><span class="to">cat /etc/motd</span><br>
-<span class="tg">Building reliable systems, automating everything, shipping with confidence.</span><br>
+<span class="tp">$ </span><span class="to">uname -a</span><br>
+<span class="tg">Linux dhaka 6.1.0 #1 SMP x86_64 GNU/Linux</span><br>
 <br>
 <span class="tp">$ </span><span class="to">systemctl status career</span><br>
 <span class="to">● career.service — Software Engineer &amp; DevOps Practitioner</span><br>
 <span class="to">&nbsp;&nbsp; Loaded: <span class="tg">loaded</span> (/dsi/earn-mis · aspnet-core · ~1M beneficiaries)</span><br>
 <span class="to">&nbsp;&nbsp; Active: <span class="tg">active (running)</span> since Jan 2025</span><br>
 <span class="to">&nbsp;&nbsp; Stack:&nbsp; ASP.NET Core · Docker · GitHub Actions · Linux · Azure · AWS</span><br>
+<br>
+<span class="tp">$ </span><span class="to">ls ~/achievements/</span><br>
+<span class="tg">RHCSA.cert&nbsp;&nbsp; ICPC_Dhaka_2022.badge&nbsp;&nbsp; ICPC_Dhaka_2023.badge&nbsp;&nbsp; 2500+_problems_solved/</span><br>
+<br>
+<span class="tp">$ </span><span class="to">git log --oneline -3</span><br>
+<span class="tc">a1b2c3d</span> <span class="tg">feat: deploy EARN MIS backend to production</span><br>
+<span class="tc">d4e5f6a</span> <span class="tg">ci: add GitHub Actions pipeline for auto-deploy</span><br>
+<span class="tc">7b8c9d0</span> <span class="tg">infra: migrate Olwel healthcare platform to AWS EC2</span><br>
+<br>
 <span class="tp">$ </span><span class="tg">_</span>
 </div>
 
@@ -223,19 +232,6 @@ CGPA: **3.46 / 4.00**
 
 ---
 
-<section id="projects"></section>
-
-## 📂 Projects
-
-### Hospital Management System
-Full-featured hospital operations web app built with **Django** and **MySQL**. Implemented TDD, CI/CD workflows, and Agile Scrum practices end-to-end.
-[View on GitHub →](https://github.com/imnasim31415)
-
-### Predicting Song Popularity
-Machine learning project analyzing Spotify Bengali tracks using **Python, Pandas, and Scikit-Learn**. Extracted features via the Spotify Web API and built predictive models with feature engineering.
-
----
-
 <section id="resume"></section>
 
 ## 📄 Resume
@@ -254,11 +250,11 @@ Machine learning project analyzing Spotify Bengali tracks using **Python, Pandas
 
 ## 📬 Contact
 
-<div class="contact-links">
-<a class="contact-link" href="mailto:ping@nasimhossain.dev">✉ ping@nasimhossain.dev</a>
-<a class="contact-link c" href="https://www.linkedin.com/in/imnasim31415/" target="_blank" rel="noopener">in LinkedIn</a>
-<a class="contact-link" href="https://github.com/imnasim31415" target="_blank" rel="noopener">⌥ GitHub</a>
-<a class="contact-link c" href="https://blog.nasimhossain.dev" target="_blank" rel="noopener">✍ Blog</a>
-</div>
-
 Open to interesting opportunities in **DevOps**, **Backend Engineering**, and **Cloud Infrastructure**.
+
+<div class="contact-links">
+<a class="contact-link" href="mailto:ping@nasimhossain.dev"><i class="fas fa-envelope"></i> ping@nasimhossain.dev</a>
+<a class="contact-link" href="https://www.linkedin.com/in/imnasim31415/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
+<a class="contact-link" href="https://github.com/imnasim31415" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+<a class="contact-link" href="https://blog.nasimhossain.dev" target="_blank" rel="noopener"><i class="fas fa-rss"></i> Blog</a>
+</div>
