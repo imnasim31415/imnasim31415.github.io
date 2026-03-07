@@ -5,30 +5,51 @@ layout: single
 author_profile: true
 ---
 
-## Experience
+## 🚀 Experience
 
-### Junior Software Engineer — Dynamic Solution Innovators Ltd. (DSi)
-**Jan 2025 – Present · Full-time · Dhaka, Bangladesh (On-site)**  
-- Backend Engineer for **EARN MIS** (education platform serving ~**1M** beneficiaries) using **ASP.NET Core**.
-- Implementing **CI/CD** and deployment workflows using **GitHub Actions** and automation practices.
-- Previously contributed to **Olwel** (healthcare service platform) built with **Python/Django**:
-  - Managed cloud infrastructure on **AWS (EC2, S3, IAM)**.
-  - Maintained production environments, handled live issues, and provided technical support.
-- Used **PM2** for production process management and monitoring.
-- Working with **Docker** for reproducible environments and delivery pipelines.
-- Exploring **Microsoft Azure** (preparing for AZ-104 track).
+<div class="pipeline">
 
----
+<div class="pl-item">
+<div class="pl-dot"></div>
+<div class="pl-body">
+<div class="pl-title">Junior Software Engineer &nbsp;<span class="status">active</span></div>
+<div class="pl-company">Dynamic Solution Innovators (DSi) — Dhaka, Bangladesh</div>
+<div class="pl-date">Jan 2025 – Present · Full-time · On-site</div>
+<ul>
+<li>Backend engineering on <strong>EARN MIS</strong> — a large-scale government education platform serving ~<strong>1M beneficiaries</strong> using <strong>ASP.NET Core</strong></li>
+<li>Implementing <strong>CI/CD pipelines</strong> via GitHub Actions for automated, reliable deployments</li>
+<li>Previously contributed to <strong>Olwel</strong> (healthcare platform built with <strong>Python/Django</strong>): managed <strong>AWS infrastructure</strong> (EC2, S3, IAM), maintained production environments, handled live incidents</li>
+<li>Using <strong>Docker</strong> for reproducible environments and delivery pipelines</li>
+<li>Using <strong>PM2</strong> for production process management and monitoring</li>
+<li>Exploring <strong>Microsoft Azure</strong> — actively preparing for the AZ-104 track</li>
+</ul>
+</div>
+</div>
 
-### Programming Instructor / Teaching Assistant — Dept. of CSE, Jahangirnagar University
-**Feb 2023 – Aug 2024**  
-- Taught **C, C++, Data Structures, Algorithms** for competitive programming to CSE/IIT juniors.
-- Organized contests, mentored students, judged events, and set problems (e.g. CodeElevate Camp 2023).
-- Volunteered at **NCPC 2023** (cultural team lead, game section manager, media section participant).
+<div class="pl-item">
+<div class="pl-dot dim"></div>
+<div class="pl-body">
+<div class="pl-title">Programming Instructor / Teaching Assistant</div>
+<div class="pl-company">Dept. of CSE, Jahangirnagar University — Savar, Dhaka</div>
+<div class="pl-date">Feb 2023 – Aug 2024</div>
+<ul>
+<li>Taught <strong>C, C++, Data Structures &amp; Algorithms</strong> to CSE/IIT juniors for competitive programming</li>
+<li>Organized contests, mentored students, judged events, and set problems (e.g. <strong>CodeElevate Camp 2023</strong>)</li>
+<li>Volunteered at <strong>NCPC 2023</strong> — Cultural Team Lead, Game Section Manager, Media Section</li>
+</ul>
+</div>
+</div>
 
----
+<div class="pl-item">
+<div class="pl-dot dim"></div>
+<div class="pl-body">
+<div class="pl-title">Executive Member</div>
+<div class="pl-company">JU Computer Club</div>
+<div class="pl-date">Feb 2020 – 2021</div>
+<ul>
+<li>Organized student events and activities; supported departmental and community programs</li>
+</ul>
+</div>
+</div>
 
-### Executive Member — JU Computer Club
-**Feb 2020 – 2021**  
-- Contributed to organizing student events and activities.
-- Supported segments and coordination for major departmental/community programs.
+</div>

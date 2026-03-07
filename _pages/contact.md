@@ -5,15 +5,17 @@ layout: single
 author_profile: true
 ---
 
-## Contact
+## 📬 Get in Touch
 
-- **Email:** [ping@nasimhossain.dev](mailto:ping@nasimhossain.dev)  
-- **Phone / WhatsApp:** [+8801841-175641](tel:+8801841175641)
+<div class="contact-links">
+<a class="contact-link" href="mailto:ping@nasimhossain.dev">✉ ping@nasimhossain.dev</a>
+<a class="contact-link" href="tel:+8801841175641">☎ +880 1841-175641</a>
+<a class="contact-link c" href="https://www.linkedin.com/in/imnasim31415/" target="_blank" rel="noopener">in LinkedIn</a>
+<a class="contact-link" href="https://github.com/imnasim31415" target="_blank" rel="noopener">⌥ GitHub</a>
+<a class="contact-link c" href="https://blog.nasimhossain.dev" target="_blank" rel="noopener">✍ Blog</a>
+<a class="contact-link c" href="https://nasimhossain.dev" target="_blank" rel="noopener">🌐 nasimhossain.dev</a>
+</div>
 
-### Online
-- **Website:** https://nasimhossain.dev  
-- **Blog:** https://blog.nasimhossain.dev  
-- **GitHub:** https://github.com/imnasim31415  
-- **LinkedIn:** https://www.linkedin.com/in/imnasim31415/
+For work inquiries or collaboration, **email is best**. I typically respond within 24 hours.
 
-If you're reaching out about work/collaboration, email is best.
+Open to opportunities in **DevOps**, **Backend Engineering**, and **Cloud Infrastructure**.

@@ -1,54 +1,281 @@
 html { scroll-behavior: smooth; }
-/* Slightly larger avatar + nicer spacing like the screenshot */
-.author__avatar img { max-width: 130px; }
-.author__content { margin-top: 0.5rem; }
-.author__name { font-size: 1.4rem; }
-.author__bio { font-size: 0.95rem; line-height: 1.4; }
 
-/* Keep sidebar visually “fixed” feeling */
-.sidebar.sticky { top: 1.5rem; }
+/* ─── Sidebar / Author ─────────────────────────────── */
+.author__avatar img   { max-width: 130px; }
+.author__content      { margin-top: 0.5rem; }
+.author__name         { font-size: 1.35rem; font-family: 'Courier New', monospace; }
+.author__bio          { font-size: 0.88rem; line-height: 1.55; }
+.sidebar.sticky       { top: 1.5rem; }
 
-/* Orange Theme Overrides */
+/* ─── DevOps Color Palette ─────────────────────────── */
 :root {
-  --primary-color: #f39c12;
+  --g:   #22c55e;        /* pipeline green  */
+  --gh:  #16a34a;        /* green hover     */
+  --gd:  rgba(34,197,94,0.12);  /* green dim */
+  --gb:  rgba(34,197,94,0.20);  /* green border */
+  --cy:  #06b6d4;        /* cyan / cloud    */
+  --bl:  #0ea5e9;        /* blue / azure    */
+  --card: rgba(255,255,255,0.04);
 }
 
-::selection {
-  background: #f39c12;
-  color: #fff;
-}
+/* ─── Selection ────────────────────────────────────── */
+::selection { background: var(--g); color: #000; }
 
-.author__urls.social-icons .fas, 
-.author__urls.social-icons .fab, 
-.author__urls.social-icons .far {
-  color: #f39c12;
-}
+/* ─── Social Icons ─────────────────────────────────── */
+.author__urls.social-icons .fas,
+.author__urls.social-icons .fab,
+.author__urls.social-icons .far { color: var(--g); }
+.author__urls.social-icons a:hover { color: var(--gh); }
 
-.author__urls.social-icons a:hover {
-  color: #e67e22;
-}
+/* ─── Buttons ──────────────────────────────────────── */
+.btn--primary       { background-color: var(--g)  !important; color: #000 !important; }
+.btn--primary:hover { background-color: var(--gh) !important; }
 
-.btn--primary {
-  background-color: #f39c12 !important;
-}
-
-.btn--primary:hover {
-  background-color: #e67e22 !important;
-}
-
-/* Update the Masthead (Top Navigation) */
-.masthead {
-  border-bottom: 1px solid #f39c12;
-}
-
+/* ─── Top Nav (Masthead) ───────────────────────────── */
+.masthead { border-bottom: 2px solid var(--g); }
 .masthead__menu-item a {
-  color: #f39c12 !important;
+  color: var(--g) !important;
+  font-family: 'Courier New', monospace;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
 }
-
 .masthead__menu-item a:hover {
-  color: #e67e22 !important;
+  color: #fff !important;
+  background: var(--gd);
+}
+.masthead__menu-item--active a {
+  border-bottom: 2px solid var(--g);
+  color: #fff !important;
 }
 
-.masthead__menu-item--active a {
-  border-bottom: 2px solid #f39c12;
+/* ─── Page Content – Headings ──────────────────────── */
+.page__content h2 {
+  font-size: 1.65rem;
+  margin-top: 2.5rem;
+  margin-bottom: 0.4rem;
+}
+.page__content h2::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 3px;
+  border-radius: 999px;
+  margin-top: 0.4rem;
+  background: linear-gradient(90deg, var(--g), var(--cy));
+}
+.page__content h3 {
+  font-size: 1.1rem;
+  color: var(--g);
+  margin-top: 1.5rem;
+  font-family: 'Courier New', monospace;
+}
+.page__content hr {
+  border-color: rgba(34,197,94,0.12);
+}
+
+/* ─── Links ────────────────────────────────────────── */
+.page__content a {
+  color: var(--cy);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(6,182,212,0.3);
+  transition: all 0.15s;
+}
+.page__content a:hover {
+  color: #fff;
+  border-color: var(--cy);
+  background: rgba(6,182,212,0.07);
+}
+
+/* ─── Terminal Block ───────────────────────────────── */
+.terminal {
+  background: #0d1117;
+  border: 1px solid rgba(34,197,94,0.28);
+  border-radius: 8px;
+  padding: 1.1rem 1.4rem 1.25rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.84rem;
+  line-height: 1.85;
+  margin: 0 0 2.25rem;
+  box-shadow: 0 0 40px rgba(34,197,94,0.07), 0 4px 28px rgba(0,0,0,0.55);
+  overflow-x: auto;
+}
+.terminal::before {
+  content: "⬤  ⬤  ⬤";
+  display: block;
+  color: rgba(255,255,255,0.18);
+  font-size: 0.65rem;
+  letter-spacing: 3px;
+  margin-bottom: 0.85rem;
+}
+.tp  { color: var(--g);  font-weight: bold; }          /* prompt   */
+.to  { color: rgba(220,220,220,0.85); }                /* output   */
+.tc  { color: rgba(255,255,255,0.3); font-style:italic; } /* comment */
+.tg  { color: var(--g); }                              /* green    */
+.tcy { color: var(--cy); }                             /* cyan     */
+
+/* ─── Skill Badges ─────────────────────────────────── */
+.skills-group       { margin-bottom: 1.4rem; }
+.skills-group-label {
+  font-family: 'Courier New', monospace;
+  font-size: 0.7rem;
+  color: rgba(255,255,255,0.32);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.45rem;
+}
+.skills-wrap { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+
+.sb {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  background: var(--card);
+  border: 1px solid var(--gb);
+  border-radius: 4px;
+  padding: 0.28rem 0.6rem;
+  font-size: 0.78rem;
+  font-family: 'Courier New', monospace;
+  color: var(--g);
+  cursor: default;
+  transition: all 0.15s;
+  /* override page link styles */
+  text-decoration: none !important;
+  border-bottom: 1px solid var(--gb) !important;
+}
+.sb:hover { background: var(--gd); border-color: var(--g) !important; color: var(--g) !important; }
+.sb img   { vertical-align: middle; }
+
+.sb.c { color: var(--cy); border-color: rgba(6,182,212,0.28) !important; }
+.sb.c:hover { background: rgba(6,182,212,0.1); border-color: var(--cy) !important; color: var(--cy) !important; }
+.sb.b { color: var(--bl); border-color: rgba(14,165,233,0.28) !important; }
+.sb.b:hover { background: rgba(14,165,233,0.1); border-color: var(--bl) !important; color: var(--bl) !important; }
+
+/* ─── Stat Cards ───────────────────────────────────── */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(148px, 1fr));
+  gap: 0.8rem;
+  margin: 1rem 0 1.75rem;
+}
+.stat-card {
+  background: var(--card);
+  border: 1px solid var(--gb);
+  border-radius: 8px;
+  padding: 1rem 0.75rem;
+  text-align: center;
+}
+.stat-num {
+  font-size: 1.85rem;
+  font-weight: 700;
+  color: var(--g);
+  font-family: 'Courier New', monospace;
+  line-height: 1.1;
+}
+.stat-lbl {
+  font-size: 0.68rem;
+  color: rgba(255,255,255,0.38);
+  margin-top: 0.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+}
+
+/* ─── Pipeline Timeline ────────────────────────────── */
+.pipeline { margin: 0.5rem 0 2rem; }
+.pl-item  { display: flex; gap: 0.85rem; margin-bottom: 2.25rem; position: relative; }
+.pl-item:not(:last-child)::before {
+  content: '';
+  position: absolute;
+  left: 11px; top: 26px; bottom: -2.25rem;
+  width: 2px;
+  background: linear-gradient(180deg, var(--g) 0%, rgba(34,197,94,0.04) 100%);
+}
+.pl-dot {
+  width: 24px; height: 24px;
+  border-radius: 50%;
+  background: var(--g);
+  box-shadow: 0 0 0 3px rgba(34,197,94,0.22);
+  flex-shrink: 0;
+  margin-top: 2px;
+  position: relative; z-index: 1;
+}
+.pl-dot.dim { background: rgba(34,197,94,0.28); box-shadow: 0 0 0 3px rgba(34,197,94,0.08); }
+.pl-body    { flex: 1; }
+.pl-title   { font-size: 1.05rem; font-weight: 600; color: rgba(255,255,255,0.92); margin: 0 0 0.08rem; }
+.pl-company { font-family: 'Courier New', monospace; font-size: 0.8rem; color: var(--g); }
+.pl-date    { font-size: 0.74rem; color: rgba(255,255,255,0.32); margin-bottom: 0.5rem; }
+.pl-body ul { margin-top: 0.4rem; padding-left: 1.15rem; }
+.pl-body li { margin-bottom: 0.3rem; font-size: 0.9rem; color: rgba(255,255,255,0.75); }
+
+/* ─── Inline Status Badge ──────────────────────────── */
+.status {
+  display: inline-flex; align-items: center; gap: 0.3rem;
+  background: rgba(34,197,94,0.11);
+  border: 1px solid rgba(34,197,94,0.28);
+  color: var(--g);
+  border-radius: 4px;
+  padding: 0.12rem 0.45rem;
+  font-size: 0.68rem;
+  font-family: 'Courier New', monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  vertical-align: middle;
+}
+.status::before {
+  content: '';
+  display: inline-block;
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: var(--g);
+  animation: blink 2s infinite;
+}
+.status.cert { background: rgba(6,182,212,0.1); border-color: rgba(6,182,212,0.3); color: var(--cy); }
+.status.cert::before { background: var(--cy); animation: none; }
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
+
+/* ─── Cert Cards ───────────────────────────────────── */
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 0.8rem;
+  margin: 1rem 0 1.5rem;
+}
+.cert-card {
+  background: var(--card);
+  border: 1px solid var(--gb);
+  border-radius: 8px;
+  padding: 0.9rem 1.1rem;
+  display: block;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  transition: all 0.15s;
+  color: inherit !important;
+}
+.cert-card:hover { border-color: var(--g); background: var(--gd); }
+.cert-name   { font-size: 0.86rem; font-weight: 600; color: rgba(255,255,255,0.9); margin: 0 0 0.2rem; }
+.cert-issuer { font-size: 0.74rem; color: rgba(255,255,255,0.38); font-family: 'Courier New', monospace; }
+.cert-date   { font-size: 0.68rem; color: rgba(255,255,255,0.28); margin-top: 0.3rem; }
+
+/* ─── Contact Links ────────────────────────────────── */
+.contact-links { display: flex; flex-wrap: wrap; gap: 0.7rem; margin: 1rem 0 1.5rem; }
+.contact-link {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  background: var(--card);
+  border: 1px solid var(--gb);
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  font-size: 0.84rem;
+  color: var(--g);
+  text-decoration: none !important;
+  border-bottom: 1px solid var(--gb) !important;
+  transition: all 0.15s;
+}
+.contact-link:hover { background: var(--gd); border-color: var(--g) !important; color: #fff !important; }
+.contact-link.c { color: var(--cy); border-color: rgba(6,182,212,0.28) !important; }
+.contact-link.c:hover { background: rgba(6,182,212,0.1); border-color: var(--cy) !important; color: #fff !important; }
+
+/* ─── iframe (Resume) ──────────────────────────────── */
+main iframe, .markdown-body iframe {
+  border-radius: 8px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+  border: 1px solid rgba(34,197,94,0.15) !important;
 }
