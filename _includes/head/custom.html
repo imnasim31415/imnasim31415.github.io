@@ -1,3 +1,30 @@
 <link rel="icon" href="/assets/images/tab.png">
 <link rel="apple-touch-icon" href="/assets/images/tab.png">
 <link rel="stylesheet" href="/assets/css/custom.css">
+<script>
+// Apply saved theme before first paint to prevent flash
+(function () {
+  var t = localStorage.getItem('dv-theme') || 'dark';
+  document.documentElement.setAttribute('data-theme', t);
+})();
+
+// Inject toggle button after DOM is ready
+document.addEventListener('DOMContentLoaded', function () {
+  var btn = document.createElement('button');
+  btn.id = 'theme-toggle';
+  btn.setAttribute('aria-label', 'Toggle light/dark mode');
+
+  function icon(theme) { return theme === 'light' ? '☾' : '☀'; }
+  btn.textContent = icon(document.documentElement.getAttribute('data-theme'));
+
+  btn.addEventListener('click', function () {
+    var current = document.documentElement.getAttribute('data-theme');
+    var next = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('dv-theme', next);
+    btn.textContent = icon(next);
+  });
+
+  document.body.appendChild(btn);
+});
+</script>
