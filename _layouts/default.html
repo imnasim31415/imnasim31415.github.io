@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% if page.title and page.title != site.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
 
-  <!-- Apply saved theme before first paint — no flash -->
-  <script>(function(){var t=localStorage.getItem('dv-theme')||'dark';document.documentElement.setAttribute('data-theme',t);})();</script>
+  <!-- Always dark mode -->
+  <script>(function(){document.documentElement.setAttribute('data-theme','dark');})();</script>
 
   <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="/assets/images/tab.png" sizes="any">
@@ -40,8 +40,7 @@
     </nav>
 
     <div class="nav__actions">
-      <button id="theme-toggle" aria-label="Toggle light/dark mode">☀</button>
-      <button id="hamburger" class="hamburger" aria-label="Open menu">☰</button>
+<button id="hamburger" class="hamburger" aria-label="Open menu">☰</button>
     </div>
   </div>
 </header>
@@ -100,18 +99,6 @@
 <!-- ── Scripts ─────────────────────────────────────────────── -->
 <script>
 (function () {
-  // Theme toggle
-  var btn = document.getElementById('theme-toggle');
-  function icon(t) { return t === 'light' ? '☾' : '☀'; }
-  btn.textContent = icon(document.documentElement.getAttribute('data-theme'));
-  btn.addEventListener('click', function () {
-    var cur = document.documentElement.getAttribute('data-theme');
-    var next = cur === 'light' ? 'dark' : 'light';
-    document.documentElement.setAttribute('data-theme', next);
-    localStorage.setItem('dv-theme', next);
-    btn.textContent = icon(next);
-  });
-
   // Mobile hamburger
   var ham = document.getElementById('hamburger');
   var navLinks = document.getElementById('nav-links');

@@ -164,7 +164,7 @@ img { max-width: 100%; display: block; }
   margin: 0 auto;
   padding: 2rem 1.5rem 3rem;
   display: grid;
-  grid-template-columns: 290px 1fr;
+  grid-template-columns: 330px 1fr;
   gap: 2.5rem;
   align-items: start;
 }
