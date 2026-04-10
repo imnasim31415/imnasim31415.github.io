@@ -290,7 +290,7 @@ CGPA: **3.46 / 4.00**
 [Download PDF →](/assets/resume/nasim-hossain-resume.pdf)
 
 <iframe
-  src="/assets/resume/nasim-hossain-resume.pdf"
+  src="/assets/resume/nasim-hossain-resume.pdf#toolbar=0&navpanes=0&scrollbar=0"
   width="100%"
   height="900px"
 ></iframe>
