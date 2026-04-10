@@ -5,6 +5,8 @@ main:
     url: "/#experience"
   - title: "Skills"
     url: "/#skills"
+  - title: "Projects"
+    url: "/#projects"
   - title: "Certifications"
     url: "/#certifications"
   - title: "Achievements"

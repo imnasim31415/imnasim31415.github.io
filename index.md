@@ -6,24 +6,24 @@ permalink: /
 
 <div class="terminal">
 <span class="tp">$ </span><span class="to">whoami</span><br>
-<span class="tg">nasim-hossain</span>&nbsp;&nbsp;<span class="tc"># Jr. SWE @ DSi · RHCSA · 2× ICPC Dhaka Regionalist</span><br>
+<span class="tg">nasim-hossain</span>&nbsp;&nbsp;<span class="tc"># SWE @ DSi · RHCSA · 2× ICPC Dhaka Regionalist</span><br>
 <br>
 <span class="tp">$ </span><span class="to">uname -a</span><br>
 <span class="tg">Linux dhaka 6.1.0 #1 SMP x86_64 GNU/Linux</span><br>
 <br>
 <span class="tp">$ </span><span class="to">systemctl status career</span><br>
 <span class="to">● career.service — Software Engineer &amp; DevOps Practitioner</span><br>
-<span class="to">&nbsp;&nbsp; Loaded: <span class="tg">loaded</span> (/dsi/earn-mis · aspnet-core · ~1M beneficiaries)</span><br>
+<span class="to">&nbsp;&nbsp; Loaded: <span class="tg">loaded</span> (/dsi/fintech · java-spring-boot · payments-platform)</span><br>
 <span class="to">&nbsp;&nbsp; Active: <span class="tg">active (running)</span> since Jan 2025</span><br>
-<span class="to">&nbsp;&nbsp; Stack:&nbsp; ASP.NET Core · Docker · GitHub Actions · Linux · Azure · AWS</span><br>
+<span class="to">&nbsp;&nbsp; Stack:&nbsp; Java · Spring Boot · Docker · GitHub Actions · Linux · AWS</span><br>
 <br>
 <span class="tp">$ </span><span class="to">ls ~/achievements/</span><br>
 <span class="tg">RHCSA.cert&nbsp;&nbsp; ICPC_Dhaka_2022.badge&nbsp;&nbsp; ICPC_Dhaka_2023.badge&nbsp;&nbsp; 2500+_problems_solved/</span><br>
 <br>
 <span class="tp">$ </span><span class="to">git log --oneline -3</span><br>
-<span class="tc">a1b2c3d</span> <span class="tg">feat: deploy EARN MIS backend to production</span><br>
-<span class="tc">d4e5f6a</span> <span class="tg">ci: add GitHub Actions pipeline for auto-deploy</span><br>
-<span class="tc">7b8c9d0</span> <span class="tg">infra: migrate Olwel healthcare platform to AWS EC2</span><br>
+<span class="tc">a1b2c3d</span> <span class="tg">feat: implement payment transaction service (Spring Boot)</span><br>
+<span class="tc">d4e5f6a</span> <span class="tg">ci: containerize fintech services with Docker + GitHub Actions</span><br>
+<span class="tc">7b8c9d0</span> <span class="tg">infra: configure zero-downtime deployment pipeline on AWS</span><br>
 <br>
 <span class="tp">$ </span><span class="tg">_</span>
 </div>
@@ -32,15 +32,11 @@ permalink: /
 
 ## 👨‍💻 About Me
 
-Hi, I'm **Nasim Hossain** — a Junior Software Engineer at [Dynamic Solution Innovators (DSi)](https://dsinnovators.com) with 1+ year of industry experience building and maintaining production systems.
+I'm **Nasim Hossain** — a Software Engineer at [Dynamic Solution Innovators (DSi)](https://dsinnovators.com), currently building backend services for a **USA-based fintech platform** with **Java Spring Boot**. I bring production experience across the full backend stack — from REST APIs and microservices to cloud infrastructure and CI/CD pipelines.
 
-I currently work as a **Backend Engineer** on **EARN MIS**, a government education platform serving ~1M beneficiaries, built with **ASP.NET Core**. Previously I managed cloud infrastructure on **AWS (EC2, S3, IAM)** for a healthcare platform — maintaining servers, resolving live incidents, and ensuring smooth deployments.
+I'm a **Red Hat Certified System Administrator (RHCSA)** who lives the DevOps culture: containerizing with Docker, automating deployments via GitHub Actions, and managing Linux servers and cloud infrastructure on AWS and Azure. Previously built **EARN MIS** — a government education backend serving ~1M beneficiaries — with ASP.NET Core, and managed AWS infrastructure for a healthcare platform.
 
-I'm a **Red Hat Certified System Administrator (RHCSA)** who actively practices DevOps culture: CI/CD pipelines with GitHub Actions, containerization with Docker, Linux server administration, and cloud infrastructure on AWS and Azure.
-
-Beyond engineering, I'm a **2× ICPC Asia Dhaka Regionalist** with 2,500+ competitive programming problems solved — a discipline that sharpens my ability to approach complex systems problems analytically.
-
-Outside tech, you'll find me playing chess — planning strategies, making mistakes, and learning from every move. ♟️
+I'm also a **2× ICPC Asia Dhaka Regionalist** with 2,500+ competitive programming problems solved — a discipline that sharpens systematic problem-solving for complex systems challenges.
 
 ---
 
@@ -53,14 +49,14 @@ Outside tech, you'll find me playing chess — planning strategies, making mista
 <div class="pl-item">
 <div class="pl-dot"></div>
 <div class="pl-body">
-<div class="pl-title">Junior Software Engineer &nbsp;<span class="status">active</span></div>
+<div class="pl-title">Software Engineer &nbsp;<span class="status">active</span></div>
 <div class="pl-company">Dynamic Solution Innovators (DSi) — Dhaka, Bangladesh</div>
 <div class="pl-date">Jan 2025 – Present · Full-time</div>
 <ul>
-<li>Backend engineering on <strong>EARN MIS</strong> — a large-scale government education platform serving ~<strong>1M beneficiaries</strong> using <strong>ASP.NET Core</strong></li>
+<li>Building backend microservices for a <strong>USA-based fintech platform</strong> using <strong>Java Spring Boot</strong> — REST APIs, Spring Security, PostgreSQL</li>
+<li>Previously built <strong>EARN MIS</strong> — a large-scale government education platform serving ~<strong>1M beneficiaries</strong> using <strong>ASP.NET Core</strong></li>
 <li>Implementing <strong>CI/CD pipelines</strong> via GitHub Actions for automated, reliable deployments</li>
-<li>Previously managed <strong>AWS infrastructure</strong> (EC2, S3, IAM) for <em>Olwel</em> healthcare platform built with <strong>Python/Django</strong></li>
-<li>Maintaining production servers, triaging live issues, improving deployment stability</li>
+<li>Managed <strong>AWS infrastructure</strong> (EC2, S3, IAM) for <em>Olwel</em> healthcare platform built with <strong>Python/Django</strong></li>
 <li>Using <strong>Docker</strong> for reproducible environments · <strong>PM2</strong> for process management · Exploring <strong>Azure</strong> (AZ-104 track)</li>
 </ul>
 </div>
@@ -117,10 +113,12 @@ Outside tech, you'll find me playing chess — planning strategies, making mista
 <div class="skills-group">
 <div class="skills-group-label">// Backend &amp; Frameworks</div>
 <div class="skills-wrap">
+<span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="14" height="14"/> Spring Boot</span>
 <span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-plain.svg" width="14" height="14"/> ASP.NET Core</span>
 <span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="14" height="14"/> Django</span>
 <span class="sb"><img src="https://www.vectorlogo.zone/logos/odoo/odoo-icon.svg" width="14" height="14"/> Odoo</span>
 <span class="sb">REST APIs</span>
+<span class="sb">Microservices</span>
 <span class="sb">OOP · Design Patterns</span>
 </div>
 </div>
@@ -128,10 +126,10 @@ Outside tech, you'll find me playing chess — planning strategies, making mista
 <div class="skills-group">
 <div class="skills-group-label">// Languages</div>
 <div class="skills-wrap">
+<span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="14" height="14"/> Java</span>
 <span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="14" height="14"/> C#</span>
 <span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="14" height="14"/> C / C++</span>
 <span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="14" height="14"/> Python</span>
-<span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="14" height="14"/> Java</span>
 <span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="14" height="14"/> JavaScript</span>
 <span class="sb">SQL</span>
 </div>
@@ -232,14 +230,67 @@ CGPA: **3.46 / 4.00**
 
 ---
 
+<section id="projects"></section>
+
+## 🔧 Featured Projects
+
+<div class="project-grid">
+
+<div class="project-card">
+<div class="project-header">
+<div class="project-name">Fintech Payment Platform</div>
+<span class="status">active</span>
+</div>
+<div class="project-desc">Backend microservices for a USA-based fintech company — transaction processing, account management, and reporting APIs built with Spring Boot and PostgreSQL.</div>
+<div class="project-stack">
+<span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="14" height="14"/> Spring Boot</span>
+<span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="14" height="14"/> Java</span>
+<span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="14" height="14"/> PostgreSQL</span>
+<span class="sb c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="14" height="14"/> Docker</span>
+<span class="sb c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="14" height="14"/> GitHub Actions</span>
+</div>
+</div>
+
+<div class="project-card">
+<div class="project-header">
+<div class="project-name">EARN MIS</div>
+</div>
+<div class="project-desc">Government education management information system serving ~1M beneficiaries. Full backend built with ASP.NET Core, deployed on Azure with automated CI/CD.</div>
+<div class="project-stack">
+<span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-plain.svg" width="14" height="14"/> ASP.NET Core</span>
+<span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="14" height="14"/> C#</span>
+<span class="sb b"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="14" height="14"/> Azure</span>
+<span class="sb c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="14" height="14"/> Docker</span>
+<span class="sb c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="14" height="14"/> GitHub Actions</span>
+</div>
+</div>
+
+<div class="project-card">
+<div class="project-header">
+<div class="project-name">Olwel Healthcare</div>
+</div>
+<div class="project-desc">Cloud infrastructure and backend for a healthcare platform — AWS EC2/S3/IAM setup, live incident triage, deployment stability, and server maintenance.</div>
+<div class="project-stack">
+<span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="14" height="14"/> Python</span>
+<span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="14" height="14"/> Django</span>
+<span class="sb b"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" width="14" height="14"/> AWS EC2</span>
+<span class="sb b">S3 · IAM</span>
+<span class="sb c">PM2</span>
+</div>
+</div>
+
+</div>
+
+---
+
 <section id="resume"></section>
 
 ## 📄 Resume
 
-[Download PDF →](/assets/resume/CV___Nasim_Hossain__Feb_26_.pdf)
+[Download PDF →](/assets/resume/nasim-hossain-resume.pdf)
 
 <iframe
-  src="/assets/resume/CV___Nasim_Hossain__Feb_26_.pdf"
+  src="/assets/resume/nasim-hossain-resume.pdf"
   width="100%"
   height="900px"
 ></iframe>
@@ -250,7 +301,7 @@ CGPA: **3.46 / 4.00**
 
 ## 📬 Contact
 
-Open to interesting opportunities in **DevOps**, **Backend Engineering**, and **Cloud Infrastructure**.
+Always open to technical conversations, collaborations, and opportunities in **Backend Engineering**, **DevOps**, and **Cloud Infrastructure**. Currently building in **Java Spring Boot** and deepening cloud-native DevOps practices.
 
 <div class="contact-links">
 <a class="contact-link" href="mailto:ping@nasimhossain.dev"><i class="fas fa-envelope"></i> ping@nasimhossain.dev</a>

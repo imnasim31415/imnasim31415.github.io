@@ -15,7 +15,7 @@
   <!-- JetBrains Mono for code/terminal elements -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
   <!-- Font Awesome for social icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -53,8 +53,8 @@
     <div class="profile__card">
       <img class="profile__avatar" src="{{ site.author.avatar }}" alt="{{ site.author.name }}">
       <h1 class="profile__name">{{ site.author.name }}</h1>
-      <p class="profile__title">Jr. SWE @ <strong>DSi</strong></p>
-      <p class="profile__tags">RHCSA · 2× ICPC · DevOps</p>
+      <p class="profile__title">Software Engineer @ <strong>DSi</strong></p>
+      <p class="profile__tags">RHCSA · Spring Boot · DevOps</p>
       {% if site.author.location %}
       <p class="profile__loc"><i class="fas fa-map-marker-alt"></i> {{ site.author.location }}</p>
       {% endif %}
@@ -66,11 +66,11 @@
         {% endfor %}
       </div>
       <div class="profile__stack">
-        <span class="stk">ASP.NET Core</span>
+        <span class="stk">Java</span>
+        <span class="stk">Spring Boot</span>
         <span class="stk">Docker</span>
         <span class="stk">GitHub Actions</span>
         <span class="stk">Linux</span>
-        <span class="stk">Azure</span>
         <span class="stk">AWS</span>
       </div>
     </div>
@@ -93,6 +93,8 @@
     <a href="https://github.com/imnasim31415" target="_blank" rel="noopener">GitHub</a>
     <span class="sep">·</span>
     <a href="https://www.linkedin.com/in/imnasim31415/" target="_blank" rel="noopener">LinkedIn</a>
+    <span class="sep">·</span>
+    <span>Built with Jekyll · Deployed on GitHub Pages</span>
   </div>
 </footer>
 
@@ -109,6 +111,21 @@
   // Close mobile nav on link click
   navLinks.querySelectorAll('a').forEach(function (a) {
     a.addEventListener('click', function () { navLinks.classList.remove('open'); });
+  });
+
+  // Scroll fade-in animations
+  var observer = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.08 });
+
+  document.querySelectorAll('.stat-card, .cert-card, .project-card, .pl-item').forEach(function (el) {
+    el.classList.add('fade-up');
+    observer.observe(el);
   });
 })();
 </script>
