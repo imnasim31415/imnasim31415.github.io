@@ -6,24 +6,17 @@ permalink: /
 
 <div class="terminal">
 <span class="tp">$ </span><span class="to">whoami</span><br>
-<span class="tg">nasim-hossain</span>&nbsp;&nbsp;<span class="tc"># SWE @ DSi · RHCSA · 2× ICPC Dhaka Regionalist</span><br>
+<span class="tg">nasim-hossain</span>&nbsp;&nbsp;<span class="tc"># SWE · DevOps nerd · occasional bug creator</span><br>
 <br>
-<span class="tp">$ </span><span class="to">uname -a</span><br>
-<span class="tg">Linux dhaka 6.1.0 #1 SMP x86_64 GNU/Linux</span><br>
+<span class="tp">$ </span><span class="to">cat about.txt</span><br>
+<span class="to">Building fintech backend services <span class="tg">@ DSi</span> in <span class="tg">Java &amp; Spring Boot</span>.</span><br>
+<span class="to">RHCSA certified. Ships things in containers. Debugs in production (rarely). 🙈</span><br>
 <br>
-<span class="tp">$ </span><span class="to">systemctl status career</span><br>
-<span class="to">● career.service — Software Engineer &amp; DevOps Practitioner</span><br>
-<span class="to">&nbsp;&nbsp; Loaded: <span class="tg">loaded</span> (/dsi/fintech · java-spring-boot · payments-platform)</span><br>
-<span class="to">&nbsp;&nbsp; Active: <span class="tg">active (running)</span> since Jan 2025</span><br>
-<span class="to">&nbsp;&nbsp; Stack:&nbsp; Java · Spring Boot · Docker · GitHub Actions · Linux · AWS</span><br>
-<br>
-<span class="tp">$ </span><span class="to">ls ~/achievements/</span><br>
-<span class="tg">RHCSA.cert&nbsp;&nbsp; ICPC_Dhaka_2022.badge&nbsp;&nbsp; ICPC_Dhaka_2023.badge&nbsp;&nbsp; 2500+_problems_solved/</span><br>
-<br>
-<span class="tp">$ </span><span class="to">git log --oneline -3</span><br>
-<span class="tc">a1b2c3d</span> <span class="tg">feat: implement payment transaction service (Spring Boot)</span><br>
-<span class="tc">d4e5f6a</span> <span class="tg">ci: containerize fintech services with Docker + GitHub Actions</span><br>
-<span class="tc">7b8c9d0</span> <span class="tg">infra: configure zero-downtime deployment pipeline on AWS</span><br>
+<span class="tp">$ </span><span class="to">./achievements.sh</span><br>
+<span class="tg"> ✓&nbsp; RHCSA Certified</span><br>
+<span class="tg"> ✓&nbsp; 2× ICPC Asia Dhaka Regionalist</span><br>
+<span class="tg"> ✓&nbsp; 2,500+ problems solved and counting</span><br>
+<span class="tg"> ✓&nbsp; Committed code on a Friday and survived</span><br>
 <br>
 <span class="tp">$ </span><span class="tg">_</span>
 </div>
