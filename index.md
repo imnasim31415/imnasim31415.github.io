@@ -247,44 +247,45 @@ CGPA: **3.46 / 4.00**
 
 <div class="project-card">
 <div class="project-header">
-<div class="project-name">Fintech Payment Platform</div>
+<div class="project-name">🇺🇸 US-Based FinTech Platform</div>
 <span class="status">active</span>
 </div>
-<div class="project-desc">Backend microservices for a USA-based fintech company — transaction processing, account management, and reporting APIs built with Spring Boot and PostgreSQL.</div>
+<div class="project-desc">Backend microservices for a USA-based fintech company — REST APIs, CI/CD workflows, and production infrastructure operations across distributed enterprise systems.</div>
 <div class="project-stack">
 <span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="14" height="14"/> Spring Boot</span>
 <span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="14" height="14"/> Java</span>
-<span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="14" height="14"/> PostgreSQL</span>
-<span class="sb c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="14" height="14"/> Docker</span>
-<span class="sb c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="14" height="14"/> GitHub Actions</span>
+<span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="14" height="14"/> MongoDB</span>
+<span class="sb">OracleDB</span>
+<span class="sb c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" width="14" height="14"/> GitLab</span>
+<span class="sb c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" width="14" height="14"/> Jenkins</span>
 </div>
 </div>
 
 <div class="project-card">
 <div class="project-header">
-<div class="project-name">EARN MIS</div>
+<div class="project-name">🇧🇩 Bangladesh Government Project</div>
+<span class="status cert">World Bank Funded</span>
 </div>
-<div class="project-desc">Government education management information system serving ~1M beneficiaries. Full backend built with ASP.NET Core, deployed on Azure with automated CI/CD.</div>
+<div class="project-desc">Large-scale government education platform serving ~1M beneficiaries — ASP.NET Core microservices, Linux server management, and automated deployment pipelines.</div>
 <div class="project-stack">
 <span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-plain.svg" width="14" height="14"/> ASP.NET Core</span>
 <span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="14" height="14"/> C#</span>
-<span class="sb b"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="14" height="14"/> Azure</span>
+<span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="14" height="14"/> PostgreSQL</span>
 <span class="sb c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="14" height="14"/> Docker</span>
+<span class="sb c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" width="14" height="14"/> Nginx</span>
 <span class="sb c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="14" height="14"/> GitHub Actions</span>
 </div>
 </div>
 
 <div class="project-card">
 <div class="project-header">
-<div class="project-name">Olwel Healthcare</div>
+<div class="project-name">🇫🇮 Finland Digital Hospital Platform</div>
 </div>
-<div class="project-desc">Cloud infrastructure and backend for a healthcare platform — AWS EC2/S3/IAM setup, live incident triage, deployment stability, and server maintenance.</div>
+<div class="project-desc">Feature development and infrastructure management for a Finland-based digital healthcare platform — Python Odoo backend, Linux server operations, and production deployments.</div>
 <div class="project-stack">
 <span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="14" height="14"/> Python</span>
-<span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="14" height="14"/> Django</span>
-<span class="sb b"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" width="14" height="14"/> AWS EC2</span>
-<span class="sb b">S3 · IAM</span>
-<span class="sb c">PM2</span>
+<span class="sb"><img src="https://www.vectorlogo.zone/logos/odoo/odoo-icon.svg" width="14" height="14"/> Odoo</span>
+<span class="sb c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="14" height="14"/> Linux</span>
 </div>
 </div>
 
