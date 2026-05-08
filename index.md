@@ -293,6 +293,27 @@ CGPA: **3.46 / 4.00**
 
 ---
 
+<section id="publications"></section>
+
+## 📄 Publications
+
+<div class="pub-card">
+<div class="pub-badge">IEEE</div>
+<div class="pub-body">
+<a class="pub-title" href="https://ieeexplore.ieee.org/document/11013466" target="_blank" rel="noopener">
+Predicting Song Popularity by Analyzing Audio Features of Spotify Bengali Tracks across Diverse Genres <i class="fas fa-external-link-alt" style="font-size:0.65rem;margin-left:0.3rem;opacity:0.6;"></i>
+</a>
+<div class="pub-venue">2025 International Conference on Electrical, Computer and Communication Engineering (ECCE)</div>
+<div class="pub-meta">
+<span><i class="fas fa-calendar-alt"></i> Feb 13–15, 2025 · Added to IEEE Xplore: May 29, 2025</span>
+<span><i class="fas fa-map-marker-alt"></i> Chittagong, Bangladesh</span>
+<span><i class="fas fa-fingerprint"></i> DOI: <a href="https://doi.org/10.1109/ECCE64574.2025.11013466" target="_blank" rel="noopener">10.1109/ECCE64574.2025.11013466</a></span>
+</div>
+</div>
+</div>
+
+---
+
 <section id="resume"></section>
 
 ## 📄 Resume
