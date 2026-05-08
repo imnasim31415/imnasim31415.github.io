@@ -332,7 +332,7 @@ main iframe, .markdown-body iframe {
 
 /* Base */
 [data-theme="light"] html,
-[data-theme="light"] body               { background-color: #818181; color: #111111; }
+[data-theme="light"] body               { background-color: #e8e8e8; color: #111111; }
 
 /* Masthead */
 [data-theme="light"] .masthead__inner-wrap { background-color: #ffffff; }
