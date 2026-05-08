@@ -111,16 +111,29 @@ Alongside industry work, I have a strong competitive programming background with
 ## 🛠️ Skills
 
 <div class="skills-group">
-<div class="skills-group-label">// DevOps &amp; Cloud</div>
+<div class="skills-group-label">// DevOps &amp; CI/CD</div>
 <div class="skills-wrap">
 <span class="sb c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="14" height="14"/> Docker</span>
+<span class="sb c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" width="14" height="14"/> GitLab</span>
+<span class="sb c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" width="14" height="14"/> Jenkins</span>
 <span class="sb c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="14" height="14"/> GitHub Actions</span>
-<span class="sb c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redhat/redhat-original.svg" width="14" height="14"/> RHEL / RHCSA</span>
-<span class="sb c">Linux</span>
+<span class="sb c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" width="14" height="14"/> Nginx</span>
+<span class="sb c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" width="14" height="14"/> Prometheus</span>
+<span class="sb c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" width="14" height="14"/> Grafana</span>
 <span class="sb c">CI/CD Pipelines</span>
 <span class="sb c">PM2</span>
+</div>
+</div>
+
+<div class="skills-group">
+<div class="skills-group-label">// Cloud &amp; Infrastructure</div>
+<div class="skills-wrap">
 <span class="sb b"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" width="14" height="14"/> AWS (EC2 · S3 · IAM)</span>
 <span class="sb b"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="14" height="14"/> Azure</span>
+<span class="sb b"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="14" height="14"/> Linux</span>
+<span class="sb b"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redhat/redhat-original.svg" width="14" height="14"/> RHEL / RHCSA</span>
+<span class="sb b">Podman</span>
+<span class="sb b">systemd · SELinux</span>
 </div>
 </div>
 
@@ -129,11 +142,11 @@ Alongside industry work, I have a strong competitive programming background with
 <div class="skills-wrap">
 <span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="14" height="14"/> Spring Boot</span>
 <span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-plain.svg" width="14" height="14"/> ASP.NET Core</span>
+<span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="14" height="14"/> Flask</span>
 <span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="14" height="14"/> Django</span>
 <span class="sb"><img src="https://www.vectorlogo.zone/logos/odoo/odoo-icon.svg" width="14" height="14"/> Odoo</span>
 <span class="sb">REST APIs</span>
 <span class="sb">Microservices</span>
-<span class="sb">OOP · Design Patterns</span>
 </div>
 </div>
 
@@ -142,21 +155,28 @@ Alongside industry work, I have a strong competitive programming background with
 <div class="skills-wrap">
 <span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="14" height="14"/> Java</span>
 <span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="14" height="14"/> C#</span>
-<span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="14" height="14"/> C / C++</span>
 <span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="14" height="14"/> Python</span>
-<span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="14" height="14"/> JavaScript</span>
+<span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="14" height="14"/> C / C++</span>
 <span class="sb">SQL</span>
 </div>
 </div>
 
 <div class="skills-group">
-<div class="skills-group-label">// Databases &amp; Tools</div>
+<div class="skills-group-label">// Databases</div>
 <div class="skills-wrap">
-<span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="14" height="14"/> MySQL</span>
 <span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="14" height="14"/> PostgreSQL</span>
-<span class="sb">RethinkDB</span>
+<span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="14" height="14"/> MongoDB</span>
+<span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" width="14" height="14"/> OracleDB</span>
+<span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="14" height="14"/> MySQL</span>
+</div>
+</div>
+
+<div class="skills-group">
+<div class="skills-group-label">// Tools &amp; Practices</div>
+<div class="skills-wrap">
 <span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="14" height="14"/> Git</span>
-<span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" width="14" height="14"/> LaTeX</span>
+<span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" width="14" height="14"/> Jira</span>
+<span class="sb">OOP · Design Patterns</span>
 <span class="sb">DS &amp; Algorithms</span>
 </div>
 </div>
