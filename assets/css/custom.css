@@ -243,30 +243,33 @@ html { scroll-behavior: smooth; font-size: 17px; }
   background: var(--card);
   border: 1px solid var(--gb);
   border-radius: 8px;
-  padding: 0.9rem 2rem 0.9rem 1.1rem;
+  padding: 0.9rem 1.1rem;
   display: block;
   text-decoration: none !important;
   border-bottom: none !important;
   transition: all 0.15s;
   color: inherit !important;
-  position: relative;
-}
-.cert-card::after {
-  content: '↗';
-  position: absolute;
-  top: 0.7rem;
-  right: 0.8rem;
-  font-size: 0.75rem;
-  color: rgba(255,255,255,0.2);
-  transition: all 0.15s;
-  line-height: 1;
 }
 .cert-card:hover { border-color: var(--g); background: var(--gd); }
-.cert-card:hover::after { color: var(--g); }
 .cert-name   { font-size: 0.88rem; font-weight: 600; color: rgba(255,255,255,0.9); margin: 0 0 0.2rem; }
 .cert-issuer { font-size: 0.76rem; color: rgba(255,255,255,0.38); font-family: 'Courier New', monospace; }
 .cert-date   { font-size: 0.7rem; color: rgba(255,255,255,0.28); margin-top: 0.3rem; }
-.cert-desc   { font-size: 0.78rem; color: rgba(255,255,255,0.48); margin-top: 0.55rem; line-height: 1.55; }
+.cert-link-icon {
+  font-size: 0.6rem;
+  color: rgba(255,255,255,0.22);
+  margin-left: 0.25rem;
+  vertical-align: middle;
+  transition: color 0.15s;
+}
+.cert-card:hover .cert-link-icon { color: var(--g); }
+ul.cert-desc {
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.48);
+  margin: 0.55rem 0 0;
+  padding-left: 1.1rem;
+  line-height: 1.6;
+}
+ul.cert-desc li { margin-bottom: 0.15rem; }
 
 /* ─── Contact Links ────────────────────────────────── */
 .contact-links { display: flex; flex-wrap: wrap; gap: 0.7rem; margin: 1rem 0 1.5rem; }
@@ -361,8 +364,8 @@ main iframe, .markdown-body iframe {
 [data-theme="light"] .cert-name   { color: #0f172a; }
 [data-theme="light"] .cert-issuer { color: #64748b; }
 [data-theme="light"] .cert-date   { color: #94a3b8; }
-[data-theme="light"] .cert-desc   { color: #475569; }
-[data-theme="light"] .cert-card::after { color: rgba(0,0,0,0.2); }
+[data-theme="light"] ul.cert-desc  { color: #475569; }
+[data-theme="light"] .cert-link-icon { color: rgba(0,0,0,0.2); }
 
 /* Skills */
 [data-theme="light"] .skills-group-label { color: #475569; }
