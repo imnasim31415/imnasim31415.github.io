@@ -45,13 +45,32 @@ I'm also a **2× ICPC Asia Dhaka Regionalist** with 2,500+ competitive programmi
 <div class="pl-title">Software Engineer &nbsp;<span class="status">active</span></div>
 <div class="pl-company">Dynamic Solution Innovators (DSi) — Dhaka, Bangladesh</div>
 <div class="pl-date">Jan 2025 – Present · Full-time</div>
+
+<div class="pl-project">🇺🇸 US-Based FinTech Project</div>
 <ul>
-<li>Building backend microservices for a <strong>USA-based fintech platform</strong> using <strong>Java Spring Boot</strong> — REST APIs, Spring Security, PostgreSQL</li>
-<li>Previously built <strong>EARN MIS</strong> — a large-scale government education platform serving ~<strong>1M beneficiaries</strong> using <strong>ASP.NET Core</strong></li>
-<li>Implementing <strong>CI/CD pipelines</strong> via GitHub Actions for automated, reliable deployments</li>
-<li>Managed <strong>AWS infrastructure</strong> (EC2, S3, IAM) for <em>Olwel</em> healthcare platform built with <strong>Python/Django</strong></li>
-<li>Using <strong>Docker</strong> for reproducible environments · <strong>PM2</strong> for process management · Exploring <strong>Azure</strong> (AZ-104 track)</li>
+<li>Working on <strong>Java Spring Boot</strong> microservice applications</li>
+<li>Focused on backend engineering and infrastructure operations</li>
+<li>Working with <strong>GitLab, Jenkins, Jira, Microsoft AD, OracleDB,</strong> and <strong>MongoDB</strong></li>
+<li>Supporting CI/CD workflows, deployments, and production stability</li>
+<li>Troubleshooting live production and infrastructure-related issues</li>
 </ul>
+
+<div class="pl-project">🇧🇩 Bangladesh Government Project &nbsp;<span class="status cert">World Bank Funded</span></div>
+<ul>
+<li>Developed APIs and microservices using <strong>ASP.NET Core</strong></li>
+<li>Managed <strong>Linux servers</strong> and production infrastructure</li>
+<li>Worked with <strong>Docker, Nginx, PostgreSQL,</strong> and <strong>GitHub Actions</strong></li>
+<li>Maintained deployment pipelines and automation workflows</li>
+<li>Resolved live production and deployment issues</li>
+</ul>
+
+<div class="pl-project">🇫🇮 Finland-Based Digital Hospital Platform</div>
+<ul>
+<li>Developed and maintained features using <strong>Python Odoo</strong></li>
+<li>Managed <strong>Linux-based servers</strong> and deployment environments</li>
+<li>Supported production systems and infrastructure operations</li>
+</ul>
+
 </div>
 </div>
 
@@ -159,8 +178,8 @@ CGPA: **3.46 / 4.00**
 <div class="cert-grid">
 
 <a class="cert-card" href="https://www.credly.com/badges/bc987621-22d8-4484-9f16-7cdde481f4ae" target="_blank" rel="noopener">
-<div class="cert-name"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redhat/redhat-original.svg" width="15" height="15" style="vertical-align:middle;margin-right:5px;"/>Red Hat Certified System Administrator <i class="fas fa-external-link-alt cert-link-icon"></i></div>
-<div class="cert-issuer">Red Hat &nbsp;<span class="status cert">RHCSA</span></div>
+<div class="cert-name"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redhat/redhat-original.svg" width="15" height="15" style="vertical-align:middle;margin-right:5px;"/>Red Hat Certified System Administrator (RHCSA) <i class="fas fa-external-link-alt cert-link-icon"></i></div>
+<div class="cert-issuer">Red Hat</div>
 <div class="cert-date">Dec 2025 – Dec 2028 · Credential: 250-195-955</div>
 <ul class="cert-desc">
 <li>100% hands-on CLI exam — no multiple choice</li>
