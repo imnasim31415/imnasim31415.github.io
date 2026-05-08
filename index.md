@@ -167,38 +167,14 @@ CGPA: **3.46 / 4.00**
 <a class="cert-card" href="https://certificates.cs50.io/279c4c4b-8e14-4745-9b9e-29f4c5bcc6a0.pdf?size=letter" target="_blank" rel="noopener">
 <div class="cert-name">Introduction to Database with SQL</div>
 <div class="cert-issuer">CS50 — Harvard University</div>
-<div class="cert-date">Jan 2025</div>
+<div class="cert-date">Dec 2024</div>
 </a>
 
-<div class="cert-card">
+<a class="cert-card" href="https://www.credly.com/badges/2a3487f5-1cb8-47af-a4d9-356e263055a5/linked_in_profile" target="_blank" rel="noopener">
 <div class="cert-name">LFS101: Introduction to Linux</div>
 <div class="cert-issuer">The Linux Foundation</div>
 <div class="cert-date">Mar 2024</div>
-</div>
-
-<div class="cert-card">
-<div class="cert-name">Git and GitHub Essentials</div>
-<div class="cert-issuer">IBM</div>
-<div class="cert-date">Jan 2023</div>
-</div>
-
-<div class="cert-card">
-<div class="cert-name">Getting Started with Git and GitHub</div>
-<div class="cert-issuer">Coursera · ID: 4J9TR6PND5VQ</div>
-<div class="cert-date">Jan 2023</div>
-</div>
-
-<div class="cert-card">
-<div class="cert-name">Linux Fundamentals</div>
-<div class="cert-issuer">Coursera · ID: AHK6QTQWCVFN</div>
-<div class="cert-date">Jan 2023</div>
-</div>
-
-<div class="cert-card">
-<div class="cert-name">Problem Solving (Basic)</div>
-<div class="cert-issuer">HackerRank · ID: B446C6DC9D11</div>
-<div class="cert-date"></div>
-</div>
+</a>
 
 </div>
 
