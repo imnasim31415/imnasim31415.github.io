@@ -12,7 +12,7 @@ permalink: /
 <span class="tp">$ </span><span class="to">cat about.txt</span><br>
 <span class="to">Building backend systems for a US fintech platform at <span class="tg">DSi</span> using <span class="tg">Java Spring Boot microservices</span>.</span><br>
 <span class="to">Works across APIs, infrastructure, CI/CD pipelines, and production systems (yes, the scary ones).</span><br>
-<span class="to">Experience spans ASP.NET Core, Python Odoo, and Linux-based cloud deployments across production environments.</span><br>
+<span class="to">Experience spans ASP.NET Core, Python Django and Linux-based cloud deployments across production environments.</span><br>
 <br>
 
 <span class="tp">$ </span><span class="to">./achievements.sh</span><br>
@@ -20,7 +20,7 @@ permalink: /
 <span class="tg"> ✓&nbsp; 2× ICPC Asia Dhaka Regionalist</span><br>
 <span class="tg"> ✓&nbsp; 2,500+ competitive programming problems solved</span><br>
 <span class="tg"> ✓&nbsp; Production experience in fintech, government, and healthcare systems</span><br>
-<span class="tg"> ✓&nbsp; Has deployed code that users actually depend on (no pressure)</span><br>
+<span class="tg"> ✓&nbsp; Has deployed code that users actually depend on.</span><br>
 <br>
 
 <span class="tp">$ </span><span class="tg">_</span>
