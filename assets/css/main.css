@@ -4,10 +4,10 @@
 
 /* ── CSS Variables ───────────────────────────────────────── */
 :root {
-  --bg:      #0d1117;
-  --bg-2:    #161b22;
-  --bg-3:    #21262d;
-  --border:  #30363d;
+  --bg:      #1e1f23;
+  --bg-2:    #26272c;
+  --bg-3:    #2e2f35;
+  --border:  #3c3d44;
   --text:    #e6edf3;
   --text-2:  #8b949e;
   --green:   #22c55e;
@@ -37,7 +37,7 @@
 /* ── Reset ───────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { scroll-behavior: smooth; font-size: 16px; }
+html { scroll-behavior: smooth; font-size: 18px; }
 
 body {
   background: var(--bg);
@@ -111,7 +111,7 @@ img { max-width: 100%; display: block; }
 .nav__links a {
   padding: 0.3rem 0.6rem;
   border-radius: 4px;
-  font-size: 0.78rem;
+  font-size: 0.88rem;
   font-family: 'JetBrains Mono', 'Courier New', monospace;
   color: var(--text-2);
   letter-spacing: 0.02em;

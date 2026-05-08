@@ -1,4 +1,4 @@
-html { scroll-behavior: smooth; font-size: 17px; }
+html { scroll-behavior: smooth; }
 
 /* ─── Sidebar / Author ─────────────────────────────── */
 .author__avatar img   { max-width: 130px; }
