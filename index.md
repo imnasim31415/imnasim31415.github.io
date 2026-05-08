@@ -25,11 +25,13 @@ permalink: /
 
 ## 👨‍💻 About Me
 
-I'm **Nasim Hossain** — a Software Engineer at [Dynamic Solution Innovators (DSi)](https://dsinnovators.com), currently building backend services for a **USA-based fintech platform** with **Java Spring Boot**. I bring production experience across the full backend stack — from REST APIs and microservices to cloud infrastructure and CI/CD pipelines.
+I'm **Nasim Hossain**, a Software Engineer at [Dynamic Solution Innovators (DSi)](https://dsinnovators.com), currently working on a **US-based fintech platform** using **Java Spring Boot** microservices. My focus is backend systems, infrastructure-aware development, and building reliable production services at scale.
 
-I'm a **Red Hat Certified System Administrator (RHCSA)** who lives the DevOps culture: containerizing with Docker, automating deployments via GitHub Actions, and managing Linux servers and cloud infrastructure on AWS and Azure. Previously built **EARN MIS** — a government education backend serving ~1M beneficiaries — with ASP.NET Core, and managed AWS infrastructure for a healthcare platform.
+I work across the backend stack — designing REST APIs, supporting CI/CD pipelines, and operating within distributed, cloud-based environments. I'm experienced with tools and systems like **Docker, GitLab, Jenkins,** and enterprise infrastructure components across Linux-based production systems.
 
-I'm also a **2× ICPC Asia Dhaka Regionalist** with 2,500+ competitive programming problems solved — a discipline that sharpens systematic problem-solving for complex systems challenges.
+I'm a **Red Hat Certified System Administrator (RHCSA)** with hands-on experience in **AWS and Azure**, working with server management, deployments, and system reliability. Previously, I worked on a **World Bank–backed government project** using ASP.NET Core microservices and on a **digital healthcare platform**, where I managed Linux infrastructure and production deployments.
+
+Alongside industry work, I have a strong competitive programming background with **2,500+ problems solved** and experience as a **2× ICPC Dhaka Regionalist**, which shaped my structured approach to system design and problem-solving.
 
 ---
 
