@@ -744,6 +744,21 @@ img { max-width: 100%; display: block; }
   margin-bottom: 0.75rem;
 }
 .project-stack { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.project-tag {
+  font-size: 0.68rem;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--cyan);
+  margin: -0.2rem 0 0.5rem;
+  letter-spacing: 0.03em;
+}
+.proj-gh {
+  margin-left: auto;
+  color: var(--text-2);
+  font-size: 1rem;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+.proj-gh:hover { color: var(--green); }
 
 /* ── Scroll Animations ───────────────────────────────────── */
 .fade-up {

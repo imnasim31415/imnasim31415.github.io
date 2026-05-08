@@ -247,6 +247,24 @@ CGPA: **3.46 / 4.00**
 
 <div class="project-card">
 <div class="project-header">
+<div class="project-name">Nodeprobe</div>
+<a href="https://github.com/imnasim31415/Nodeprobe" target="_blank" rel="noopener" class="proj-gh"><i class="fab fa-github"></i></a>
+</div>
+<div class="project-tag">DSi DevOps Club</div>
+<div class="project-desc">Containerized Flask app deployed across 3 VMs behind an Nginx reverse proxy. Shows which node served your request and what commit it's running. Full CI/CD via GitHub Actions with Prometheus + Grafana monitoring.</div>
+<div class="project-stack">
+<span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="14" height="14"/> Python</span>
+<span class="sb"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="14" height="14"/> Flask</span>
+<span class="sb c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="14" height="14"/> Docker</span>
+<span class="sb c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" width="14" height="14"/> Nginx</span>
+<span class="sb c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="14" height="14"/> GitHub Actions</span>
+<span class="sb c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" width="14" height="14"/> Prometheus</span>
+<span class="sb c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" width="14" height="14"/> Grafana</span>
+</div>
+</div>
+
+<div class="project-card">
+<div class="project-header">
 <div class="project-name">🇺🇸 US-Based FinTech Platform</div>
 <span class="status">active</span>
 </div>
