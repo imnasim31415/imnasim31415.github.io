@@ -126,14 +126,13 @@ Alongside industry work, I have a strong competitive programming background with
 <span class="sb c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" width="14" height="14"/> Prometheus</span>
 <span class="sb c"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" width="14" height="14"/> Grafana</span>
 <span class="sb c">CI/CD Pipelines</span>
-<span class="sb c">PM2</span>
 </div>
 </div>
 
 <div class="skills-group">
 <div class="skills-group-label">// Cloud &amp; Infrastructure</div>
 <div class="skills-wrap">
-<span class="sb b"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" width="14" height="14"/> AWS (EC2 · S3 · IAM)</span>
+<span class="sb b"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" width="14" height="14"/> AWS</span>
 <span class="sb b"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="14" height="14"/> Azure</span>
 <span class="sb b"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="14" height="14"/> Linux</span>
 <span class="sb b"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redhat/redhat-original.svg" width="14" height="14"/> RHEL / RHCSA</span>
