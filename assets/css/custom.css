@@ -332,7 +332,7 @@ main iframe, .markdown-body iframe {
 
 /* Base */
 [data-theme="light"] html,
-[data-theme="light"] body               { background-color: #eef4ff; color: #1a2440; }
+[data-theme="light"] body               { background-color: #e8e8e8; color: #111111; }
 
 /* Masthead */
 [data-theme="light"] .masthead__inner-wrap { background-color: #ffffff; }
@@ -353,19 +353,19 @@ main iframe, .markdown-body iframe {
 [data-theme="light"] .page__content a:hover   { color: #0f172a; background: rgba(6,182,212,0.08); }
 
 /* Pipeline timeline */
-[data-theme="light"] .pl-title  { color: #0f172a; }
-[data-theme="light"] .pl-date   { color: #64748b; }
-[data-theme="light"] .pl-body li { color: #334155; }
+[data-theme="light"] .pl-title  { color: #111111; }
+[data-theme="light"] .pl-date   { color: #555555; }
+[data-theme="light"] .pl-body li { color: #222222; }
 
 /* Stats */
 [data-theme="light"] .stat-lbl  { color: #64748b; }
 
 /* Cert cards */
-[data-theme="light"] .cert-name   { color: #0f172a; }
-[data-theme="light"] .cert-issuer { color: #64748b; }
-[data-theme="light"] .cert-date   { color: #94a3b8; }
-[data-theme="light"] ul.cert-desc  { color: #475569; }
-[data-theme="light"] .cert-link-icon { color: rgba(0,0,0,0.2); }
+[data-theme="light"] .cert-name   { color: #111111; }
+[data-theme="light"] .cert-issuer { color: #444444; }
+[data-theme="light"] .cert-date   { color: #666666; }
+[data-theme="light"] ul.cert-desc  { color: #333333; }
+[data-theme="light"] .cert-link-icon { color: rgba(0,0,0,0.25); }
 
 /* Skills */
 [data-theme="light"] .skills-group-label { color: #475569; }

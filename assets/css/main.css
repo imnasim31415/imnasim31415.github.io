@@ -20,16 +20,16 @@
 }
 
 [data-theme="light"] {
-  --bg:      #f0f5ff;
-  --bg-2:    #ffffff;
-  --bg-3:    #f4f7ff;
-  --border:  #cdd5e0;
-  --text:    #1a2440;
-  --text-2:  #5a6a85;
-  --green:   #15803d;
+  --bg:      #e8e8e8;
+  --bg-2:    #f2f2f2;
+  --bg-3:    #dcdcdc;
+  --border:  #c4c4c4;
+  --text:    #111111;
+  --text-2:  #555555;
+  --green:   #16a34a;
   --green-h: #166534;
-  --green-d: rgba(21, 128, 61, 0.09);
-  --green-b: rgba(21, 128, 61, 0.28);
+  --green-d: rgba(22, 163, 74, 0.10);
+  --green-b: rgba(22, 163, 74, 0.30);
   --cyan:    #0e7490;
   --blue:    #1d4ed8;
 }
