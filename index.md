@@ -162,18 +162,21 @@ CGPA: **3.46 / 4.00**
 <div class="cert-name"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redhat/redhat-original.svg" width="15" height="15" style="vertical-align:middle;margin-right:5px;"/>Red Hat Certified System Administrator</div>
 <div class="cert-issuer">Red Hat &nbsp;<span class="status cert">RHCSA</span></div>
 <div class="cert-date">Dec 2025 – Dec 2028 · Credential: 250-195-955</div>
+<div class="cert-desc">Industry-recognized, 100% hands-on CLI exam. Covers Linux administration, storage (LVM, NFS), networking, SELinux, systemd, package management, and container basics with Podman.</div>
 </a>
 
 <a class="cert-card" href="https://certificates.cs50.io/279c4c4b-8e14-4745-9b9e-29f4c5bcc6a0.pdf?size=letter" target="_blank" rel="noopener">
 <div class="cert-name">Introduction to Database with SQL</div>
 <div class="cert-issuer">CS50 — Harvard University</div>
 <div class="cert-date">Dec 2024</div>
+<div class="cert-desc">Harvard's intensive DB course covering relational design, SQL (joins, subqueries, CTEs), indexes, views, transactions, and schema normalization across SQLite, MySQL, and PostgreSQL.</div>
 </a>
 
 <a class="cert-card" href="https://www.credly.com/badges/2a3487f5-1cb8-47af-a4d9-356e263055a5/linked_in_profile" target="_blank" rel="noopener">
 <div class="cert-name">LFS101: Introduction to Linux</div>
 <div class="cert-issuer">The Linux Foundation</div>
 <div class="cert-date">Mar 2024</div>
+<div class="cert-desc">Linux Foundation foundational course covering the filesystem hierarchy, CLI essentials, file permissions, process management, networking tools, and package management across major distros.</div>
 </a>
 
 </div>
