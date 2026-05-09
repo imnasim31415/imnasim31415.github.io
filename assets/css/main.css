@@ -340,7 +340,7 @@ img { max-width: 100%; display: block; }
 
 /* ── Terminal Block ──────────────────────────────────────── */
 .terminal {
-  background: #0d1117;
+  background: #4a4a4a;
   border: 1px solid rgba(34, 197, 94, 0.3);
   border-radius: 10px;
   padding: 1rem 1.4rem 1.25rem;
