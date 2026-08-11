@@ -49,32 +49,78 @@
 <div class="layout">
 
   <!-- Profile sidebar -->
+
   <aside class="profile">
     <div class="profile__card">
-      <img class="profile__avatar" src="{{ site.author.avatar }}" alt="{{ site.author.name }}">
-      <h1 class="profile__name">{{ site.author.name }}</h1>
-      <p class="profile__title">Software Engineer @ <strong>DSi</strong></p>
-      <p class="profile__tags">RHCSA · Spring Boot · DevOps</p>
-      {% if site.author.location %}
-      <p class="profile__loc"><i class="fas fa-map-marker-alt"></i> {{ site.author.location }}</p>
-      {% endif %}
-      <div class="profile__links">
-        {% for link in site.author.links %}
-        <a href="{{ link.url }}"{% if link.url contains 'http' %} target="_blank" rel="noopener"{% endif %} title="{{ link.label }}" class="profile__link">
-          <i class="{{ link.icon }}"></i>
-        </a>
-        {% endfor %}
-      </div>
-      <div class="profile__stack">
-        <span class="stk">Java</span>
-        <span class="stk">Spring Boot</span>
-        <span class="stk">Docker</span>
-        <span class="stk">GitHub Actions</span>
-        <span class="stk">Linux</span>
-        <span class="stk">AWS</span>
-      </div>
+
+  ```
+  <img
+    class="profile__avatar"
+    src="{{ site.author.avatar }}"
+    alt="{{ site.author.name }}"
+  >
+
+  <h1 class="profile__name">{{ site.author.name }}</h1>
+
+  <p class="profile__title">
+    Software Engineer @ <strong>DSi</strong>
+  </p>
+
+  <p class="profile__tags">
+    RHCSA · DevOps · Cloud
+  </p>
+
+  <p class="profile__bio">
+    I build backend systems and automate infrastructure,
+    with a focus on Linux, cloud, containers, and CI/CD.
+  </p>
+
+  {% if site.author.location %}
+  <p class="profile__loc">
+    <i class="fas fa-map-marker-alt"></i>
+    {{ site.author.location }}
+  </p>
+  {% endif %}
+
+  <div class="profile__links">
+    {% for link in site.author.links %}
+    <a
+      href="{{ link.url }}"
+      {% if link.url contains 'http' %}target="_blank" rel="noopener"{% endif %}
+      title="{{ link.label }}"
+      class="profile__link"
+    >
+      <i class="{{ link.icon }}"></i>
+    </a>
+    {% endfor %}
+  </div>
+
+  <div class="profile__stack">
+    <!-- Cloud & DevOps -->
+    <span class="stk">DevOps</span>
+    <span class="stk">Azure</span>
+    <span class="stk">AWS</span>
+    <span class="stk">Docker</span>
+    <span class="stk">Ansible</span>
+    <span class="stk">Jenkins</span>
+    <span class="stk">CI/CD</span>
+
+    <!-- Systems -->
+    <span class="stk">Linux Administration</span>
+    <span class="stk">Linux</span>
+    <span class="stk">Bash</span>
+
+    <!-- Backend -->
+    <span class="stk">Java</span>
+    <span class="stk">Spring Boot</span>
+    <span class="stk">ASP.NET</span>
+    <span class="stk">Python</span>
+  </div>
+  ```
+
     </div>
   </aside>
+
 
   <!-- Page content -->
   <main class="content">
@@ -94,7 +140,7 @@
     <span class="sep">·</span>
     <a href="https://www.linkedin.com/in/imnasim31415/" target="_blank" rel="noopener">LinkedIn</a>
     <span class="sep">·</span>
-    <span>Built with Jekyll · Deployed on GitHub Pages</span>
+    <span>Built with Jekyll · Hosted on GitHub Pages</span>
   </div>
 </footer>
 
