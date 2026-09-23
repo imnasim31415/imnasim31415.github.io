@@ -49,33 +49,32 @@ Alongside industry work, I have a strong competitive programming background with
 <div class="pl-item">
 <div class="pl-dot"></div>
 <div class="pl-body">
-<div class="pl-title">Software Engineer &nbsp;<span class="status">active</span></div>
+<div class="pl-title">Junior Software Engineer &nbsp;<span class="status">active</span></div>
 <div class="pl-company">Dynamic Solution Innovators (DSi) — Dhaka, Bangladesh</div>
 <div class="pl-date">Jan 2025 – Present · Full-time</div>
 
-<div class="pl-project">🇺🇸 US-Based FinTech Project</div>
+<div class="pl-project">🛠️ Infrastructure &amp; DevOps</div>
 <ul>
-<li>Working on <strong>Java Spring Boot</strong> microservice applications</li>
-<li>Focused on backend engineering and infrastructure operations</li>
-<li>Working with <strong>GitLab, Jenkins, Jira, Microsoft AD, OracleDB,</strong> and <strong>MongoDB</strong></li>
-<li>Supporting CI/CD workflows, deployments, and production stability</li>
-<li>Troubleshooting live production and infrastructure-related issues</li>
+<li>Worked as an infrastructure-focused engineer on a <strong>US-based FinTech platform</strong>, supporting <strong>4 environments</strong>: Dev, Pilot, Stage, and Production</li>
+<li>Designed and maintained <strong>4 Jenkins clusters</strong>, one per environment, with <strong>3+ CI/CD pipelines per cluster</strong> running on dedicated machines</li>
+<li>Automated deployment and operational workflows across <strong>12+ dedicated pipeline machines</strong>, reducing repetitive manual infrastructure tasks</li>
+<li>Developed <strong>Ansible automation</strong> for recurring server operations, including path mounting and environment validation across multiple servers</li>
+<li>Used <strong>Datadog</strong> for production monitoring, troubleshooting application and infrastructure issues, and supporting incident resolution</li>
+<li>Designed and implemented <strong>3-node OpenStack Swift clusters</strong> in both Pilot and Production for distributed storage, replication, and disaster recovery</li>
 </ul>
 
-<div class="pl-project">🇧🇩 Bangladesh Government Project &nbsp;<span class="status cert">World Bank Funded</span></div>
+<div class="pl-project">🔁 CI/CD &amp; Automation</div>
 <ul>
-<li>Developed APIs and microservices using <strong>ASP.NET Core</strong></li>
-<li>Managed <strong>Linux servers</strong> and production infrastructure</li>
-<li>Worked with <strong>Docker, Nginx, PostgreSQL,</strong> and <strong>GitHub Actions</strong></li>
-<li>Maintained deployment pipelines and automation workflows</li>
-<li>Resolved live production and deployment issues</li>
+<li>Managed application deployment cycles across <strong>4 environments</strong>, supporting releases, production troubleshooting, and deployment-related issue resolution</li>
+<li>Built and maintained CI/CD workflows using <strong>Jenkins, GitLab CI/CD, GitHub Actions, Docker,</strong> and <strong>Ansible</strong></li>
+<li>Investigated slow Jenkins pipelines by analyzing build stages, deployment workflows, and infrastructure bottlenecks</li>
 </ul>
 
-<div class="pl-project">🇫🇮 Finland-Based Digital Hospital Platform</div>
+<div class="pl-project">⚙️ Backend Engineering &nbsp;<span class="status cert">World Bank Funded</span></div>
 <ul>
-<li>Developed and maintained features using <strong>Python Odoo</strong></li>
-<li>Managed <strong>Linux-based servers</strong> and deployment environments</li>
-<li>Supported production systems and infrastructure operations</li>
+<li>Developed and maintained <strong>Java Spring Boot microservices</strong> for a US-based FinTech platform, including R&amp;D, POCs, bug fixing, and deployment-related troubleshooting</li>
+<li>Developed <strong>ASP.NET Core microservices and REST APIs</strong> for a World Bank-funded Bangladesh Government project</li>
+<li>Worked with <strong>PostgreSQL, MongoDB, OracleDB, Docker, Nginx, GitLab, Jenkins,</strong> and <strong>GitHub Actions</strong> across application and infrastructure environments</li>
 </ul>
 
 </div>
@@ -84,25 +83,12 @@ Alongside industry work, I have a strong competitive programming background with
 <div class="pl-item">
 <div class="pl-dot dim"></div>
 <div class="pl-body">
-<div class="pl-title">Programming Instructor / Teaching Assistant</div>
+<div class="pl-title">Programming Instructor</div>
 <div class="pl-company">Dept. of CSE, Jahangirnagar University — Savar, Dhaka</div>
-<div class="pl-date">Feb 2023 – Aug 2024</div>
+<div class="pl-date">Oct 2023 – Aug 2024</div>
 <ul>
-<li>Taught <strong>C, C++, Data Structures &amp; Algorithms</strong> to 100+ junior students for competitive programming</li>
-<li>Set problems and organized <strong>CodeElevate Camp 2023</strong>; mentored &amp; judged student contests</li>
-<li>Cultural Team Lead &amp; Game Section Manager at <strong>NCPC 2023</strong></li>
-</ul>
-</div>
-</div>
-
-<div class="pl-item">
-<div class="pl-dot dim"></div>
-<div class="pl-body">
-<div class="pl-title">Executive Member</div>
-<div class="pl-company">JU Computer Club</div>
-<div class="pl-date">Feb 2020 – 2021</div>
-<ul>
-<li>Organized student events, coordinated departmental programs, supported community activities</li>
+<li>Instructed junior CSE and IIT students in <strong>C, C++, Data Structures, and Algorithms</strong> for programming contests</li>
+<li>Conducted classes, mentored students, organized programming contests, and served as a judge and problem setter for <strong>CodeElevate Camp 2023</strong></li>
 </ul>
 </div>
 </div>
